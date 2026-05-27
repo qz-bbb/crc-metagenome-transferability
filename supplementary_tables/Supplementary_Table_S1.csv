@@ -1,0 +1,12 @@
+﻿Cohort,CRC,Control,Total,"Age, median (IQR)",Age non-missing,"BMI, median (IQR)",BMI non-missing,Sex/gender metadata,Country,Sequencing platform,Disease-stage non-missing
+FengQ_2015,46,61,107,68.0 (64.0–72.0),107,28.3 (23.5–30.0),107,female=43; male=64,AUT,IlluminaHiSeq,0
+GuptaA_2019,30,30,60,57.0 (38.2–62.0),60,20.8 (19.2–22.4),60,female=30; male=30,IND,IlluminaNextSeq,30
+HanniganGD_2017,27,28,55,56.0 (51.0–63.5),55,27.2 (23.8–32.6),54,female=24; male=31,CAN; USA,IlluminaHiSeq,0
+ThomasAM_2018a,29,24,53,69.0 (64.0–77.0),53,25.0 (23.0–27.8),50,female=17; male=36,ITA,IlluminaHiSeq,0
+ThomasAM_2018b,32,28,60,59.0 (53.5–65.0),59,25.4 (22.8–28.3),58,female=21; male=39,ITA,IlluminaHiSeq,0
+ThomasAM_2019_c,40,40,80,64.0 (50.8–70.0),80,22.5 (20.9–24.6),80,female=35; male=45,JPN,IlluminaHiSeq,0
+VogtmannE_2016,52,52,104,63.0 (54.0–70.0),104,24.1 (22.6–27.6),101,female=30; male=74,USA,IlluminaHiSeq,0
+WirbelJ_2018,60,65,125,60.0 (51.0–67.0),125,25.2 (22.9–28.0),125,female=52; male=73,DEU,IlluminaHiSeq,0
+YachidaS_2019,258,251,509,64.0 (55.0–70.0),509,22.6 (20.7–24.6),508,female=212; male=297,JPN,IlluminaHiSeq,0
+YuJ_2015,74,54,128,64.0 (58.8–70.0),128,23.5 (21.9–25.6),127,female=47; male=81,CHN,IlluminaHiSeq,0
+ZellerG_2014,53,61,114,64.0 (58.2–70.8),114,25.0 (23.0–27.0),110,female=57; male=57,FRA,IlluminaHiSeq,0

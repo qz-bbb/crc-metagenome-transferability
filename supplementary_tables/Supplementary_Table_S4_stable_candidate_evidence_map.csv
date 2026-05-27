@@ -1,0 +1,30 @@
+﻿Taxon,Direction,Baseline BH q,Covariate BH q,Random-effects q,I²,Same-direction cohorts,LOCO direction preservation fraction,LOCO FDR < 0.10 support fraction,LOCO robust,Elastic-net selected folds,MicrobiomeHD genus match,Oral-associated panel membership,High-consistency candidate,Notes
+Streptococcus salivarius,control-higher,4.129409721497949e-09,2.5463398522734697e-10,2.0940120056496435e-05,37.9%,10/11,1.000,1.000,yes,100%,yes,yes,yes,high consistency candidate
+Roseburia faecis,control-higher,1.2346019478099954e-07,6.055148255677106e-08,0.0792226812868117,82.3%,10/11,1.000,1.000,yes,100%,yes,no,no,heterogeneous candidate
+Faecalibacterium prausnitzii,control-higher,3.2074800470892933e-07,2.732735918536532e-06,0.0028857434273967,62.8%,10/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Parabacteroides distasonis,CRC-higher,0.0210112553227871,0.0141374648982194,0.0499230057859264,0.0%,10/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Roseburia intestinalis,control-higher,1.961851715645286e-09,2.7225589108738216e-10,4.3834981727981095e-05,45.5%,9/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Bacteroides fragilis,CRC-higher,0.0001090646283834,0.0001102978806924,0.0043651135879175,63.5%,9/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Butyricimonas virosa,CRC-higher,0.0006796920457096,0.0014691995717089,0.0173464742787603,71.9%,9/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Anaerostipes hadrus,control-higher,0.001657586881694,0.0059983769912114,0.0130552262247428,48.2%,9/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Fusicatenibacter saccharivorans,control-higher,0.0085677987633764,0.0158286146121476,0.0090887010082181,9.5%,9/11,1.000,1.000,yes,100%,no,no,yes,high consistency candidate
+Bacteroides caccae,CRC-higher,0.0288955108517203,0.0143887686702009,0.0866735111506168,12.8%,9/11,1.000,0.909,yes,82%,yes,no,yes,high consistency candidate
+Eubacterium eligens,control-higher,1.7970703993571038e-06,9.278024368904176e-07,0.0024686410755576,47.4%,8/11,1.000,1.000,yes,100%,yes,no,yes,high consistency candidate
+Ruthenibacterium lactatiformans,CRC-higher,9.58987059431405e-06,3.3895877760378563e-06,0.0499230057859264,80.9%,8/11,1.000,1.000,yes,73%,no,no,no,heterogeneous candidate
+Blautia wexlerae,control-higher,0.0129833258484206,0.0174386295643916,0.0784186893666306,35.0%,8/11,1.000,1.000,yes,82%,yes,no,yes,high consistency candidate
+Bilophila wadsworthia,CRC-higher,0.0138234367469061,0.0113011606111304,0.030835474313122,0.0%,8/11,1.000,1.000,yes,64%,no,no,yes,high consistency candidate
+Bifidobacterium longum,control-higher,0.035452669245132,0.0898423659670834,0.038446027443836,0.0%,8/11,1.000,0.818,yes,82%,yes,no,yes,high consistency candidate
+Intestinimonas butyriciproducens,CRC-higher,0.0009092630180043,0.0004947961995442,0.0028358706068831,36.8%,7/11,1.000,1.000,yes,100%,no,no,yes,high consistency candidate
+Escherichia coli,CRC-higher,0.005578037265115,0.0349120610123816,0.0262157664213198,69.3%,7/11,1.000,1.000,yes,73%,no,no,yes,high consistency candidate
+Clostridium bolteae,CRC-higher,0.0138234367469061,0.0078448901467768,0.0324424633093418,45.4%,7/11,1.000,1.000,yes,91%,no,no,yes,high consistency candidate
+Agathobaculum butyriciproducens,control-higher,0.0364621121619475,0.0374194558541532,0.0324424633093418,47.2%,7/11,1.000,0.818,yes,100%,no,no,yes,high consistency candidate
+Akkermansia muciniphila,CRC-higher,0.039272480781498,0.0367632772069144,0.0906082924430156,40.5%,7/11,1.000,0.909,yes,100%,yes,no,yes,high consistency candidate
+Bacteroides thetaiotaomicron,CRC-higher,0.0466614732524879,0.0425635821654331,0.2122711793641564,59.1%,10/11,1.000,0.909,yes,91%,no,no,no,bounded candidate
+Flavonifractor plautii,CRC-higher,0.0009757647742297,0.0001449249322391,0.1687451863843125,81.3%,8/11,1.000,1.000,yes,100%,yes,no,no,heterogeneous candidate
+Gemmiger formicilis,control-higher,0.028092246223095,0.0365821035787115,0.1044355868053885,35.4%,8/11,1.000,1.000,yes,100%,yes,no,no,bounded candidate
+Roseburia inulinivorans,control-higher,0.0595549155630006,0.0355298371427305,0.0532627668875179,0.0%,8/11,1.000,0.636,no,100%,no,no,no,bounded candidate
+Alistipes shahii,CRC-higher,0.0173542310531477,0.0302378440831746,0.2873935531232088,70.9%,7/11,1.000,0.818,yes,100%,yes,no,no,bounded candidate
+Bifidobacterium adolescentis,control-higher,0.0255703025118813,0.0277491623628465,0.1421433318804943,64.6%,7/11,1.000,0.909,yes,100%,yes,no,no,bounded candidate
+Collinsella stercoris,CRC-higher,0.0454393499913266,0.0544689906419416,0.4997854696225702,42.2%,7/11,1.000,0.909,yes,64%,no,no,no,bounded candidate
+Alistipes finegoldii,CRC-higher,0.0936704452279373,0.0365821035787115,0.1421433318804943,34.7%,8/11,1.000,0.455,no,73%,no,no,no,bounded candidate
+Parabacteroides merdae,CRC-higher,0.069516496306764,0.0705302564141162,0.2168777693115364,42.6%,7/11,1.000,0.545,no,73%,no,no,no,bounded candidate
