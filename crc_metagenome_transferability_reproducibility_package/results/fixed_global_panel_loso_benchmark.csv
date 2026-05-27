@@ -1,5 +1,0 @@
-panel_type,panel_size,number_of_held_out_folds,median_auroc,minimum_auroc,maximum_auroc,auroc_iqr,median_average_precision,benchmark_label
-all_301_features,301,11,0.7522522522522522,0.5727513227513228,0.923125,0.10334153157012127,0.7697824654011968,retrospective fixed-panel transferability stress testing
-global_high_consistency18,18,11,0.6931575196008553,0.5887457920256957,0.83,0.11233625790654977,0.7102468051598259,retrospective fixed-panel transferability stress testing
-global_stable29,29,11,0.6725,0.44576719576719576,0.8500000000000001,0.1184766075397583,0.679108120949334,retrospective fixed-panel transferability stress testing
-global_top29_q,29,11,0.8338461538461539,0.593915343915344,0.879375,0.07781107699211143,0.8704226373559486,retrospective fixed-panel transferability stress testing

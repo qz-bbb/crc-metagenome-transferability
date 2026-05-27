@@ -1,7 +1,0 @@
-generated_at=2026-05-27T20:12:41
-python=3.12.13 (main, Mar  3 2026, 15:01:35) [MSC v.1944 64 bit (AMD64)]
-platform=Windows-11-10.0.26200-SP0
-run_dir=D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306
-permutation_test=4,999 within-study permutations
-loso_random_state=42
-copied_scripts=D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\run_analysis.py; D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\build_meta_heterogeneity_analysis.py; D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\build_ecology_transfer_analysis.py; D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\build_robustness_interpretation_analysis.py; D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\build_publication_tables.py; D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\render_journal_figures.py; D:\1\projects\gut_microbiome_colorectal_cancer\runs\run_20260525_182306\BMC_submission\code\scripts\build_bmc_submission_package.py
