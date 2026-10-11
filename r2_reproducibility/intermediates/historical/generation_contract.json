@@ -1,0 +1,34 @@
+{
+  "inputs": {
+    "baseline_metadata": {
+      "filename": "curated_crc_case_control_sample_metadata.tsv",
+      "bytes": 357260,
+      "sha256": "944d2d0a4b22a075d896f53ad494402fc1ad8f4a6395ec36c8f483e7124e0fee"
+    },
+    "baseline_matrix": {
+      "filename": "curated_crc_case_control_species_relative_abundance.tsv.gz",
+      "bytes": 539924,
+      "sha256": "a7842a540aee58e5fa3a2b96ceb1d972031cbc8a1b785c801d52193d29a44c98",
+      "canonical_sha256": "bc7f3bdf737c7ec58d81e67003e4a7a383f32a3a8bfca381868e9aa93d757f08"
+    },
+    "microbiomehd_q": {
+      "filename": "file-S1.qvalues.txt",
+      "bytes": 79577,
+      "sha256": "06addebe7e09aacad1b21f7c9b21d1d64e28e4a88c70d8f4d1ca34e132b184d4"
+    },
+    "microbiomehd_effects": {
+      "filename": "file-S5.effects.txt",
+      "bytes": 52044,
+      "sha256": "a2e1facf698953aab424e255707627bcd270d41f31c926521a27af04f5d45390"
+    }
+  },
+  "algorithms": {
+    "build_ecology_transfer_analysis.py": "9b4f83e6079d60fd6e10c7bc111d2797a3a35cc144fb09a67dc2e6d2ca1e58b8",
+    "build_leakage_aware_prioritization_analysis.py": "100278621f351b50e06bf689692626e52a69e5f4121211a8554079a42b02a4b7",
+    "build_meta_heterogeneity_analysis.py": "1d2bf5a2c1d58ae426384361c7f3953b6c83b66885059aea914bf8290bfa2770",
+    "build_robustness_interpretation_analysis.py": "73936a59d7468bac48bef49bbaa02ca8ff4d2b1f99ea95e590958382d848a1bd",
+    "run_analysis.py": "ad5cec361c3735a89e292d4ae245beedcb4cb421c3b34d901a39fcd441bc929e",
+    "run_rf_clr_sensitivity.py": "ca855a55a4bd018c3b760a4efdac32bfe6989ae15cc896c9992ae3c56d04bded"
+  },
+  "note": "Pinned historical input versions. No target output enters generation. See SOURCE_ACCESS and M7_GENERATION_GUIDE for acquisition and scope."
+}

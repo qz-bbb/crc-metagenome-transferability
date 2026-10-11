@@ -1,0 +1,6 @@
+{
+  "training_manifest": "inputs/generated/mp4_initial/01_inputs/training_manifest.tsv",
+  "enriched_manifest": "results/identity_enrichment/05_review/original_enriched_identity_manifest.tsv",
+  "enrichment_receipt": "results/identity_enrichment/enrichment_receipt.json",
+  "output_root": "results/identity_audit"
+}

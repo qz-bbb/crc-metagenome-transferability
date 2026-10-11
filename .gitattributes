@@ -1,0 +1,8 @@
+# Preserve reviewed byte hashes across Windows/Linux checkout and Git archives.
+/r2_reproducibility/** -text
+/source_snapshots/** -text
+/PUBLICATION_MANIFEST.tsv -text
+/.zenodo.json -text
+/.gitattributes -text
+/RELEASE_NOTES_v2.0.0.md -text
+/README.md -text

@@ -1,0 +1,17 @@
+{
+  "source_root": "inputs/mp4_source",
+  "baseline_metadata": "inputs/historical/curated_crc_case_control_sample_metadata.tsv",
+  "baseline_matrix": "inputs/historical/curated_crc_case_control_species_relative_abundance.tsv.gz",
+  "legacy_clr": "inputs/historical/legacy_clr.tsv",
+  "legacy_abundance": "inputs/historical/legacy_abundance.tsv",
+  "legacy_interpretation": "inputs/historical/legacy_interpretation.tsv",
+  "legacy_membership": "inputs/historical/legacy_membership.tsv",
+  "old_clr_sets": "inputs/historical/old_clr_sets.tsv",
+  "output_root": "results/closure_replay",
+  "nested_reference_root": "inputs/generated/nested_full",
+  "identity_baseline_root": "inputs/generated/mp4_initial",
+  "identity_multicohort_root": "inputs/generated/mp4_multicohort",
+  "identity_enriched_manifest": "inputs/generated/identity_enriched/05_review/original_enriched_identity_manifest.tsv",
+  "frozen_rule_root": "inputs/generated/frozen_rule",
+  "frozen_identity_root": "inputs/generated/frozen_identity"
+}

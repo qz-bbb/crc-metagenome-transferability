@@ -1,0 +1,18 @@
+result_family	entrypoint	inputs_or_dependency	replay_in_this_extension	source_route_status
+historical_cMD_metadata_matrix	source_access.py reconstruct-cmd	eleven dated RDA files plus commit-pinned sampleMetadata.rda	prior baseline reconstruction evidence only	pinned official routes; not redownloaded in M7 extension
+MP4_source_members	source_access.py extract-mp4	Zenodo 15069069 two archives	prior baseline 34-member evidence only	official archive routes; no fresh download this extension
+MP4_training_inventory	portable.py mp4-audit	MP4 sources plus cMD metadata	retained exact historical inventory consumed	core generation available; not re-audited here
+MP4_frozen_models	portable.py mp4-fit	MP4 audit and reference association code	not refitted	core generator included; outputs excluded
+six_cohort_predictions_metrics	portable.py multi-audit/multi-predict/multi-evaluate/multi-replicate	baseline fitted MP4 lock and sources	not recomputed	core generators included; checkpoints excluded
+nested_LOSO	portable.py nested	cMD baseline matrix/metadata	not fitted	core generator included
+matched_size	portable.py nested-matched	nested membership plus cMD inputs	not fitted	core generator included
+historical_five_dependencies	prepare_intermediates.py historical-full	cMD matrix/metadata; frozen algorithm snapshots; two MicrobiomeHD source tables	12 tables exactly reproduced; ten byte exact and two gzip matrices decompressed exact	generator and preflight version contract included; MicrobiomeHD source files externally configured
+historical_CLR_direction	portable.py historical-clr	newly generated abundance CLR and old CLR sets	3 TSVs byte exact	generated-input consumer passed exact contracts
+historical_taxonomy_context	portable.py historical-context	newly generated CLR and membership	4 TSVs byte exact	generated-input consumer passed exact contracts
+historical_RF_CLR	portable.py historical-rf	newly generated CLR and full interpretation	only consumed-panel check DCP29 ICP18; no RF refit	full required interpretation generator included
+rule_ablation	closures.py rule-init/rule-fold/rule-finalize	cMD inputs and nested reference root	prior baseline 11-selection/110-metric evidence only	staged code retained; not rerun here
+identity_enrichment	prepare_intermediates.py identity-enrich	cMD metadata plus two dated ENA snapshots and provenance	373 rows 195 UIDs; byte exact	exact scoped-token generator and pinned sources included; snapshots not shipped
+identity_audit	prepare_intermediates.py identity-audit	generated enrichment and receipt plus 1257-row inventory	3 TSVs byte exact; 1214 resolved and 43 unresolved	separate broader audit summary not generated
+identity_sensitivity	closures.py identity-prepare/identity-fit/identity-predict/identity-evaluate	MP4 baseline and multicohort checkpoints plus generated enriched manifest	prepare 3 TSVs byte exact; no fit/predict/evaluation	new exact-hash manifest hook; broader audit summary still a frozen dependency
+MP4_sparsity	prepare_intermediates.py sparsity	MP4 lock inventories same-version sources and prior species-replication tables	8 TSVs byte exact	generator included; uses existing replication q values with endpoint checks
+four_definition_decomposition	definition_decomposition/run_definitions.py	MP4 lock inventories sources and newly generated prior_sparsity	9 TSVs byte exact	consumer replayed with new sparsity dependency

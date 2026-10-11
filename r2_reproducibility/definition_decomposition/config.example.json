@@ -1,0 +1,8 @@
+{
+  "model_lock": "../inputs/generated/mp4_initial/02_analysis/model_lock",
+  "training_manifest": "../inputs/generated/mp4_initial/01_inputs/training_manifest.tsv",
+  "inventory": "../inputs/generated/mp4_multicohort/01_inputs/cohort_inventory.tsv",
+  "extracted": "../inputs/mp4_source/extracted",
+  "prior_sparsity": "../inputs/generated/rule_ablation/mp4_sparsity",
+  "output": "../../definition_results"
+}

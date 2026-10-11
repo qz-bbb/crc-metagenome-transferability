@@ -1,0 +1,25 @@
+{
+  "scope": "exact public ENA reports retained on 2026-10-10; separately attributed R2 release snapshots, excluded from code-only ZIP",
+  "files": [
+    {
+      "file": "ena_original_project_PRJNA447983.tsv",
+      "bytes": 19542,
+      "sha256": "843c5ae888f3d550d3c36230118d17fc0d88d0b1f094f18c8e4f807dece0db0f"
+    },
+    {
+      "file": "ena_original_project_PRJNA447983.tsv.provenance.json",
+      "bytes": 515,
+      "sha256": "a878494c429eaeeef00ad21a8809f419c3df9dd3e9ff495a01f8fa9d5547d590"
+    },
+    {
+      "file": "ena_original_project_PRJEB27928.tsv",
+      "bytes": 62080,
+      "sha256": "5740a1bfe4c77dee3c049bb05e053a04759f10597221471d542f347c91cf3bb3"
+    },
+    {
+      "file": "ena_original_project_PRJEB27928.tsv.provenance.json",
+      "bytes": 514,
+      "sha256": "1939538ecdf4cd5d23b2a2020e6f4eb733931ce5388dd1439c3fef4a29ff66c5"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "status": "PASS for bounded local release preparation; not public from-zero release",
+  "tests": {
+    "status": "PASS",
+    "suites": [
+      {
+        "suite": "tests",
+        "tests": 23,
+        "exit_code": 0
+      },
+      {
+        "suite": "code",
+        "tests": 41,
+        "exit_code": 0
+      },
+      {
+        "suite": "definition_decomposition",
+        "tests": 9,
+        "exit_code": 0
+      },
+      {
+        "suite": "intermediates/historical",
+        "tests": 16,
+        "exit_code": 0
+      },
+      {
+        "suite": "intermediates/identity",
+        "tests": 16,
+        "exit_code": 0
+      },
+      {
+        "suite": "intermediates/sparsity",
+        "tests": 14,
+        "exit_code": 0
+      },
+      {
+        "suite": "m7_recovery",
+        "tests": 19,
+        "exit_code": 0
+      }
+    ],
+    "test_total": 138,
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "new_environment_created": false,
+    "network_install_performed": false,
+    "packages": {
+      "numpy": "2.4.5",
+      "pandas": "3.0.3",
+      "scipy": "1.17.1",
+      "statsmodels": "0.14.6",
+      "scikit-learn": "1.8.0",
+      "pyreadr": "0.5.6",
+      "joblib": "1.5.3"
+    }
+  },
+  "generator_comparisons": {
+    "status": "PASS",
+    "historical": [
+      {
+        "key": "legacy_clr",
+        "file": "filtered_species_clr.tsv.gz",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": false,
+        "generated_sha256": "70874ad09982e0e3ee21f848eed65404e21602e37dff7e596c8210e4c4fa46ee",
+        "reference_sha256": "7b66a349a726110dcedf8c4da7ab6370e35609a3dcaecea6ac2c556e14a7de4d"
+      },
+      {
+        "key": "legacy_abundance",
+        "file": "filtered_species_abundance_percent.tsv.gz",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": false,
+        "generated_sha256": "38ea13e8d0deaea8d8a1c26775298ed836433a4821c99a790ed7f7b4f1b779c3",
+        "reference_sha256": "0346a18a146f1aa2ff6c7519bde4e1c5ecf9aaadc3212f899fdefe6a219a1511"
+      },
+      {
+        "key": "legacy_membership",
+        "file": "ecological_guild_membership.csv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "846f2a72314e76ec3f7700704d43a0c6394ffb12ca30b2f94edc602a13a0293e",
+        "reference_sha256": "846f2a72314e76ec3f7700704d43a0c6394ffb12ca30b2f94edc602a13a0293e"
+      },
+      {
+        "key": "old_clr_sets",
+        "file": "clr_dcp_global_sets.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "749bba728873506b9da0ca561464b0f603713115bcf1f6f8eed9d06f28a7fa36",
+        "reference_sha256": "749bba728873506b9da0ca561464b0f603713115bcf1f6f8eed9d06f28a7fa36"
+      },
+      {
+        "key": "legacy_interpretation",
+        "file": "stable_candidate_interpretation.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "50d67e131088c3dbb875296ce3098857578ec7e1b33693c526984971d618928d",
+        "reference_sha256": "50d67e131088c3dbb875296ce3098857578ec7e1b33693c526984971d618928d"
+      },
+      {
+        "key": "association",
+        "file": "association.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "296f65f928c46a877384ed08165561466cd8a0b126870544f6e6d86cfbf554a2",
+        "reference_sha256": "296f65f928c46a877384ed08165561466cd8a0b126870544f6e6d86cfbf554a2"
+      },
+      {
+        "key": "stability",
+        "file": "stability.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "c7939bede60dff7b7a4fefc7b3a5711ee4d676ac7128324953ae8b9e14baabbd",
+        "reference_sha256": "c7939bede60dff7b7a4fefc7b3a5711ee4d676ac7128324953ae8b9e14baabbd"
+      },
+      {
+        "key": "loco_summary",
+        "file": "loco_summary.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "bbf28e53918021838442f7561874fb4f9b1803c4c66203b830d6b9c1b34af972",
+        "reference_sha256": "bbf28e53918021838442f7561874fb4f9b1803c4c66203b830d6b9c1b34af972"
+      },
+      {
+        "key": "covariate",
+        "file": "covariate.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "eafbe39a61ed22cdf3702666c8db1f8eefeb7d83833c838df82bec1f7cbc0fc6",
+        "reference_sha256": "eafbe39a61ed22cdf3702666c8db1f8eefeb7d83833c838df82bec1f7cbc0fc6"
+      },
+      {
+        "key": "transport",
+        "file": "transport.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "8e59af7a57183040fede90bd27d9cf9b159c3c72832337873b2516d875eafcd7",
+        "reference_sha256": "8e59af7a57183040fede90bd27d9cf9b159c3c72832337873b2516d875eafcd7"
+      },
+      {
+        "key": "feature_weights",
+        "file": "feature_weights.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "73bca4eadce47f9e5c6d04c00cc1d5a088e497e6b06d7c7e49e3907a961d5c15",
+        "reference_sha256": "73bca4eadce47f9e5c6d04c00cc1d5a088e497e6b06d7c7e49e3907a961d5c15"
+      },
+      {
+        "key": "microbiomehd_overlap",
+        "file": "microbiomehd_overlap.tsv",
+        "uncompressed_bytes_exact": true,
+        "byte_exact": true,
+        "generated_sha256": "f9a18cd127abf775e08432a3b9155b158f5ecab7d95580082a31fdb5139322e7",
+        "reference_sha256": "f9a18cd127abf775e08432a3b9155b158f5ecab7d95580082a31fdb5139322e7"
+      }
+    ],
+    "identity": [
+      {
+        "file": "original_enriched_identity_manifest.tsv",
+        "byte_exact": true,
+        "sha256": "ce400c920f18f7633a90256f40ab436cd50212cb1b25cc53f28ed56f4fa10ef4"
+      },
+      {
+        "file": "excluded_training.tsv",
+        "byte_exact": true,
+        "sha256": "cf1051593fc9b5da8d9d185653279f48925ab8c7ab40f9635383b0f7da4a1dc8"
+      },
+      {
+        "file": "training_identity_audit.tsv",
+        "byte_exact": true,
+        "sha256": "4aedec6b859e11ce3e3de38ea9617e853e08c3daf230a7e5e528bcdbe98901d8"
+      },
+      {
+        "file": "training_manifest.tsv",
+        "byte_exact": true,
+        "sha256": "c853ff8f0a379b824e0018e4549e2c8503c56deb9aee6b40511ccd9b7982f771"
+      }
+    ],
+    "comparison_targets_used_only_after_generation": true
+  },
+  "ena_order_diagnostic": {
+    "status": "PASS for content diagnostic only",
+    "shape": [
+      140,
+      9
+    ],
+    "byte_exact": false,
+    "row_order_equal": false,
+    "cells_exact_after_run_accession_sort": true,
+    "historical_sha256": "843c5ae888f3d550d3c36230118d17fc0d88d0b1f094f18c8e4f807dece0db0f",
+    "current_sha256": "63400bee1480170936f6de4e75ac8fa62a421006aafa210316a544cf75f2dfb4",
+    "adopted_as_input": false
+  },
+  "microbiomehd_remote": [
+    {
+      "key": "microbiomehd_q",
+      "bytes": 79577,
+      "sha256": "06addebe7e09aacad1b21f7c9b21d1d64e28e4a88c70d8f4d1ca34e132b184d4",
+      "retrieval_mode": "remote_verified"
+    },
+    {
+      "key": "microbiomehd_effects",
+      "bytes": 52044,
+      "sha256": "a2e1facf698953aab424e255707627bcd270d41f31c926521a27af04f5d45390",
+      "retrieval_mode": "remote_verified"
+    }
+  ],
+  "ena_local": [
+    {
+      "key": "PRJNA447983",
+      "bytes": 19542,
+      "sha256": "843c5ae888f3d550d3c36230118d17fc0d88d0b1f094f18c8e4f807dece0db0f",
+      "retrieval_mode": "local_verified"
+    },
+    {
+      "key": "PRJEB27928",
+      "bytes": 62080,
+      "sha256": "5740a1bfe4c77dee3c049bb05e053a04759f10597221471d542f347c91cf3bb3",
+      "retrieval_mode": "local_verified"
+    }
+  ],
+  "remote_ena_exact_recovery": false,
+  "public_release": false,
+  "scientific_rule_changes": false,
+  "full_model_refit": false,
+  "historical_aggregate_checkpoint_regenerated": false,
+  "identity_consumer": {
+    "status": "PASS",
+    "tables": [
+      {
+        "file": "excluded_training.tsv",
+        "byte_exact": true,
+        "sha256": "cf1051593fc9b5da8d9d185653279f48925ab8c7ab40f9635383b0f7da4a1dc8"
+      },
+      {
+        "file": "training_identity_audit.tsv",
+        "byte_exact": true,
+        "sha256": "4aedec6b859e11ce3e3de38ea9617e853e08c3daf230a7e5e528bcdbe98901d8"
+      },
+      {
+        "file": "training_manifest.tsv",
+        "byte_exact": true,
+        "sha256": "c853ff8f0a379b824e0018e4549e2c8503c56deb9aee6b40511ccd9b7982f771"
+      }
+    ],
+    "aggregate_checkpoint_identical_to_consumer_source": true,
+    "aggregate_checkpoint_regenerated": false,
+    "model_refit": false
+  }
+}

@@ -1,0 +1,117 @@
+[
+  {
+    "file": "run_analysis.py",
+    "source": "historical retained source: run_analysis.py",
+    "source_sha256": "bd759f32e1cf60f0346f371f73098028e11f710781117daeec848beb43377f77",
+    "snapshot_sha256": "ad5cec361c3735a89e292d4ae245beedcb4cb421c3b34d901a39fcd441bc929e",
+    "functions_ast_exact": {
+      "bh_fdr": true,
+      "genus_from_taxon": true,
+      "species_from_taxon": true,
+      "fit_feature_ols": true,
+      "zscore_numeric": true,
+      "finalize_design": true
+    },
+    "main_intervals": [
+      [
+        "design = pd.DataFrame({",
+        "assoc = assoc.sort_values("
+      ],
+      [
+        "stability_rows =",
+        "stability = pd.DataFrame(stability_rows)"
+      ],
+      [
+        "metadata_indexed =",
+        "covariate_compare_path ="
+      ],
+      [
+        "schema_rows =",
+        "overlap_path ="
+      ],
+      [
+        "performance_rows =",
+        "transport_path ="
+      ]
+    ],
+    "private_globals_exported": false,
+    "historical_write_expressions_removed": true
+  },
+  {
+    "file": "build_robustness_interpretation_analysis.py",
+    "source": "historical retained source: build_robustness_interpretation_analysis.py",
+    "source_sha256": "d4f702ba6f28e00d7a3cf9c3aafb42f5e60deba4955eb8fe34c4a7ae737e5750",
+    "snapshot_sha256": "73936a59d7468bac48bef49bbaa02ca8ff4d2b1f99ea95e590958382d848a1bd",
+    "functions_ast_exact": {
+      "bh_fdr": true,
+      "genus_from_taxon": true,
+      "species_from_taxon": true,
+      "fit_feature_ols": true,
+      "make_design": true,
+      "clr_transform": true,
+      "association_screen": true,
+      "run_leave_one_cohort_association": true,
+      "build_candidate_interpretation": true
+    },
+    "main_intervals": [],
+    "private_globals_exported": false,
+    "historical_write_expressions_removed": true
+  },
+  {
+    "file": "build_meta_heterogeneity_analysis.py",
+    "source": "historical retained source: build_meta_heterogeneity_analysis.py",
+    "source_sha256": "9c4253ee01fe282e9240c6f7680a8be2d23e24f09ca4f6de7cb6cbb0e7cd8939",
+    "snapshot_sha256": "1d2bf5a2c1d58ae426384361c7f3953b6c83b66885059aea914bf8290bfa2770",
+    "functions_ast_exact": {
+      "bh_fdr": true,
+      "normal_pvalue": true,
+      "chi2_sf": true,
+      "species_from_taxon": true,
+      "genus_from_taxon": true,
+      "per_cohort_effects": true,
+      "random_effects_meta": true,
+      "build_meta_table": true
+    },
+    "main_intervals": [],
+    "private_globals_exported": false,
+    "historical_write_expressions_removed": true
+  },
+  {
+    "file": "build_leakage_aware_prioritization_analysis.py",
+    "source": "historical retained source: build_leakage_aware_prioritization_analysis.py",
+    "source_sha256": "73d84c41dfa258746de43e4216939560d8984360fe49888faa7be47050806109",
+    "snapshot_sha256": "100278621f351b50e06bf689692626e52a69e5f4121211a8554079a42b02a4b7",
+    "functions_ast_exact": {
+      "parse_taxon": true,
+      "guild_membership": true
+    },
+    "main_intervals": [],
+    "private_globals_exported": false,
+    "historical_write_expressions_removed": true
+  },
+  {
+    "file": "build_ecology_transfer_analysis.py",
+    "source": "historical retained source: build_ecology_transfer_analysis.py",
+    "source_sha256": "447630887ff86e094a209bb26a7eeb73fab54530c811ad078d498f8a988737c6",
+    "snapshot_sha256": "9b4f83e6079d60fd6e10c7bc111d2797a3a35cc144fb09a67dc2e6d2ca1e58b8",
+    "functions_ast_exact": {},
+    "main_intervals": [],
+    "private_globals_exported": false,
+    "historical_write_expressions_removed": true
+  },
+  {
+    "file": "run_rf_clr_sensitivity.py",
+    "source": "historical retained source: run_rf_clr_sensitivity.py",
+    "source_sha256": "504c67209b44ddd075e0582941720a54a18dfd5f98595179864a5cea1ab70074",
+    "snapshot_sha256": "ca855a55a4bd018c3b760a4efdac32bfe6989ae15cc896c9992ae3c56d04bded",
+    "functions_ast_exact": {
+      "bh": true,
+      "association_screen": true,
+      "direction_support": true,
+      "select_panel": true
+    },
+    "main_intervals": [],
+    "private_globals_exported": false,
+    "historical_write_expressions_removed": true
+  }
+]

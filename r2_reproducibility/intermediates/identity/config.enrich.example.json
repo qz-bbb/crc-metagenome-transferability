@@ -1,0 +1,14 @@
+{
+  "original_metadata": "inputs/historical/curated_crc_case_control_sample_metadata.tsv",
+  "project_snapshots": {
+    "PRJNA447983": {
+      "path": "inputs/identity/ena_original_project_PRJNA447983.tsv",
+      "provenance": "inputs/identity/ena_original_project_PRJNA447983.tsv.provenance.json"
+    },
+    "PRJEB27928": {
+      "path": "inputs/identity/ena_original_project_PRJEB27928.tsv",
+      "provenance": "inputs/identity/ena_original_project_PRJEB27928.tsv.provenance.json"
+    }
+  },
+  "output_root": "results/identity_enrichment"
+}

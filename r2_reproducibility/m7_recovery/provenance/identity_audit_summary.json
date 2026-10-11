@@ -1,0 +1,163 @@
+{
+  "original_ena_rows": 2075,
+  "original_ena_runs_found": 2075,
+  "original_runs_requested": 2075,
+  "original_runs_unmapped": [],
+  "cohorts": {
+    "Public_study__LiuNN_2022": {
+      "metadata_samples": 163,
+      "mapped_to_ena": 163,
+      "unique_ena_runs": 163,
+      "unique_ena_biosamples": 163,
+      "accession_overlap_original_samples": 0,
+      "accession_overlap_training_samples": 0,
+      "generic_alias_overlap_flag_samples": 0,
+      "unmapped_names": []
+    },
+    "Public_study__YangY_2021": {
+      "metadata_samples": 200,
+      "mapped_to_ena": 200,
+      "unique_ena_runs": 200,
+      "unique_ena_biosamples": 200,
+      "accession_overlap_original_samples": 0,
+      "accession_overlap_training_samples": 0,
+      "generic_alias_overlap_flag_samples": 0,
+      "unmapped_names": []
+    },
+    "Public_study__YangJ_2020": {
+      "metadata_samples": 193,
+      "mapped_to_ena": 193,
+      "unique_ena_runs": 193,
+      "unique_ena_biosamples": 193,
+      "accession_overlap_original_samples": 0,
+      "accession_overlap_training_samples": 0,
+      "generic_alias_overlap_flag_samples": 0,
+      "unmapped_names": []
+    },
+    "This_study_cohort6__IIGM_TU": {
+      "metadata_samples": 57,
+      "mapped_to_ena": 57,
+      "unique_ena_runs": 57,
+      "unique_ena_biosamples": 57,
+      "accession_overlap_original_samples": 0,
+      "accession_overlap_training_samples": 0,
+      "generic_alias_overlap_flag_samples": 0,
+      "unmapped_names": []
+    },
+    "This_study_cohort5__NSHII": {
+      "metadata_samples": 897,
+      "mapped_to_ena": 897,
+      "unique_ena_runs": 897,
+      "unique_ena_biosamples": 897,
+      "accession_overlap_original_samples": 0,
+      "accession_overlap_training_samples": 0,
+      "generic_alias_overlap_flag_samples": 0,
+      "unmapped_names": []
+    }
+  },
+  "additional_original_project_mapped_samples": {
+    "ThomasAM_2018b": 60,
+    "ThomasAM_2018a": 53,
+    "WirbelJ_2018": 82
+  },
+  "original_identity_coverage_by_study": [
+    {
+      "study": "FengQ_2015",
+      "n": 107,
+      "n_with_run_accession": 107,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 107,
+      "n_any_resolved_accession": 107
+    },
+    {
+      "study": "GuptaA_2019",
+      "n": 60,
+      "n_with_run_accession": 60,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 60,
+      "n_any_resolved_accession": 60
+    },
+    {
+      "study": "HanniganGD_2017",
+      "n": 55,
+      "n_with_run_accession": 55,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 55,
+      "n_any_resolved_accession": 55
+    },
+    {
+      "study": "ThomasAM_2018a",
+      "n": 53,
+      "n_with_run_accession": 0,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 53,
+      "n_any_resolved_accession": 53
+    },
+    {
+      "study": "ThomasAM_2018b",
+      "n": 60,
+      "n_with_run_accession": 0,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 60,
+      "n_any_resolved_accession": 60
+    },
+    {
+      "study": "ThomasAM_2019_c",
+      "n": 80,
+      "n_with_run_accession": 0,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 80,
+      "n_any_resolved_accession": 0
+    },
+    {
+      "study": "VogtmannE_2016",
+      "n": 104,
+      "n_with_run_accession": 104,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 104,
+      "n_any_resolved_accession": 104
+    },
+    {
+      "study": "WirbelJ_2018",
+      "n": 125,
+      "n_with_run_accession": 82,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 125,
+      "n_any_resolved_accession": 82
+    },
+    {
+      "study": "YachidaS_2019",
+      "n": 509,
+      "n_with_run_accession": 0,
+      "n_with_biosample_as_sample_id": 509,
+      "n_subject_id": 509,
+      "n_any_resolved_accession": 509
+    },
+    {
+      "study": "YuJ_2015",
+      "n": 128,
+      "n_with_run_accession": 128,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 128,
+      "n_any_resolved_accession": 128
+    },
+    {
+      "study": "ZellerG_2014",
+      "n": 114,
+      "n_with_run_accession": 114,
+      "n_with_biosample_as_sample_id": 0,
+      "n_subject_id": 114,
+      "n_any_resolved_accession": 114
+    }
+  ],
+  "new_biosample_duplicates": {},
+  "new_run_duplicates": {},
+  "yangy_included_assays": {
+    "WGS|METAGENOMIC|PAIRED": 200
+  },
+  "turkey_ena_title_label_conflicts": [],
+  "nhsii_context_n": 18,
+  "nhsii_clinical_time_or_diagnosis_fields": [],
+  "network_response_bytes": 1085267,
+  "conclusion": "No observed shared public run/BioSample or supplied subject/sample alias; no global participant linkage or raw-read duplicate audit, so hidden overlap is not ruled out."
+}

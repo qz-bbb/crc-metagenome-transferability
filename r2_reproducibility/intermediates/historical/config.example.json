@@ -1,0 +1,9 @@
+{
+  "baseline_metadata": "../inputs/curated_crc_case_control_sample_metadata.tsv",
+  "baseline_matrix": "../inputs/curated_crc_case_control_species_relative_abundance.tsv.gz",
+  "source_scripts": "source_algorithms",
+  "rf_source": "source_algorithms/run_rf_clr_sensitivity.py",
+  "microbiomehd_q": "../inputs/MicrobiomeHD/file-S1.qvalues.txt",
+  "microbiomehd_effects": "../inputs/MicrobiomeHD/file-S5.effects.txt",
+  "output_root": "../generated_historical"
+}

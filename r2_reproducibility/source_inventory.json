@@ -1,0 +1,158 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.FengQ_2015.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5573",
+      "bytes": 137246,
+      "sha256": "7d33b4813f36ee3aa49e5ade0598bb6283c724a44591f316d49d9c349c871304",
+      "resource": "EH5530",
+      "fetch_id": 5573,
+      "version": "2021-03-31",
+      "study": "FengQ_2015"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.GuptaA_2019.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5597",
+      "bytes": 39416,
+      "sha256": "3407b92ddfc6082b23a66a15264e5d5624f8b1c9d2975046092e384657f9f902",
+      "resource": "EH5554",
+      "fetch_id": 5597,
+      "version": "2021-03-31",
+      "study": "GuptaA_2019"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.HanniganGD_2017.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5609",
+      "bytes": 42991,
+      "sha256": "06e72f25df214b7fe5695ea1a711265d79e66215281171c6b80bdc45dfc09e13",
+      "resource": "EH5566",
+      "fetch_id": 5609,
+      "version": "2021-03-31",
+      "study": "HanniganGD_2017"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.ThomasAM_2018a.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5885",
+      "bytes": 64363,
+      "sha256": "f353bf89c9fa749b9308f27bb3aaedad17a1d48615670b7564c689ac888daf48",
+      "resource": "EH5842",
+      "fetch_id": 5885,
+      "version": "2021-03-31",
+      "study": "ThomasAM_2018a"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.ThomasAM_2018b.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5891",
+      "bytes": 65828,
+      "sha256": "6bb1dd1669c824a25e33de719612e54e597cf83a811b8f2173cb099e778f07f8",
+      "resource": "EH5848",
+      "fetch_id": 5891,
+      "version": "2021-03-31",
+      "study": "ThomasAM_2018b"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.ThomasAM_2019_c.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5897",
+      "bytes": 73468,
+      "sha256": "1c32d598e1d050cfa4fba8f13d2a644d8e8146b2aba1dde45ebb30d9e015883e",
+      "resource": "EH5854",
+      "fetch_id": 5897,
+      "version": "2021-03-31",
+      "study": "ThomasAM_2019_c"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.VogtmannE_2016.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5921",
+      "bytes": 105612,
+      "sha256": "ba624fa7a51c002909b54c8783073e861f3c512c4295cc82571bc6cce9dfe8da",
+      "resource": "EH5878",
+      "fetch_id": 5921,
+      "version": "2021-03-31",
+      "study": "VogtmannE_2016"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.WirbelJ_2018.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5933",
+      "bytes": 110617,
+      "sha256": "8b7cdc0f4e6ba7546970bef6ae8b62d798488aecb9d0b6af627fb0bd95117fdd",
+      "resource": "EH5890",
+      "fetch_id": 5933,
+      "version": "2021-03-31",
+      "study": "WirbelJ_2018"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.YachidaS_2019.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5945",
+      "bytes": 418859,
+      "sha256": "d872784779b11a90f95da4aa8d139ef478e6a88976a9f5ddb7fe2e85aae33c1f",
+      "resource": "EH5902",
+      "fetch_id": 5945,
+      "version": "2021-03-31",
+      "study": "YachidaS_2019"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.YuJ_2015.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5969",
+      "bytes": 118851,
+      "sha256": "7c5b4fc3bac6e83371105e147b40c41aa4399f005619da4ed2a92fa6ef777272",
+      "resource": "EH5926",
+      "fetch_id": 5969,
+      "version": "2021-03-31",
+      "study": "YuJ_2015"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/relative_abundance_rda/2021-03-31.ZellerG_2014.relative_abundance.rda",
+      "url": "https://experimenthub.bioconductor.org/fetch/5981",
+      "bytes": 147044,
+      "sha256": "d8e0f3fd00b2339b1aa929197ca0869c43990ff885a04fc675e70d4aff5604b2",
+      "resource": "EH5938",
+      "fetch_id": 5981,
+      "version": "2021-03-31",
+      "study": "ZellerG_2014"
+    },
+    {
+      "family": "cmd",
+      "file": "cmd/sampleMetadata.rda",
+      "url": "https://raw.githubusercontent.com/bioc/curatedMetagenomicData/cecdfeca42d0f6cda6bad3f5c755c5c4ba4da858/data/sampleMetadata.rda",
+      "bytes": 624293,
+      "sha256": "168c8650d2893dcb49930b9b85a4187637775c9aae0a8023efb4cca52dc73444",
+      "version": "cecdfeca42d0f6cda6bad3f5c755c5c4ba4da858"
+    },
+    {
+      "family": "mp4",
+      "file": "mp4_source/piccinno_metadata_full.tar.gz",
+      "url": "https://zenodo.org/api/records/15069069/files/metadata.tar.gz/content",
+      "bytes": 49593,
+      "sha256": "c86d2a38e4c73ded2800872d431bf99fc6b9a7ed9aa235c99c7e27728a1615ad",
+      "md5": "13d70ee2fa4297a6652ef5f7f8c76878",
+      "record": "15069069",
+      "version": "v1, 2025-03-22",
+      "pipeline": "MetaPhlAn 4 Jan21; --statq 0.1",
+      "archive_folder": "metadata"
+    },
+    {
+      "family": "mp4",
+      "file": "mp4_source/metaphlan4_profiles_full.tar.gz",
+      "url": "https://zenodo.org/api/records/15069069/files/metaphlan4_profiles.tar.gz/content",
+      "bytes": 13117000,
+      "sha256": "cf439ff8b9f4cb8f239cb8215aae879615fe76b41c3d7147fb60014847f58b35",
+      "md5": "5f38041c5e5aa776f365881fd606cddb",
+      "record": "15069069",
+      "version": "v1, 2025-03-22",
+      "pipeline": "MetaPhlAn 4 Jan21; --statq 0.1",
+      "archive_folder": "metaphlan4_profiles"
+    }
+  ]
+}

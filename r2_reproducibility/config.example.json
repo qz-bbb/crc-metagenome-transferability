@@ -1,0 +1,11 @@
+{
+  "source_root": "inputs/mp4_source",
+  "baseline_metadata": "inputs/historical/curated_crc_case_control_sample_metadata.tsv",
+  "baseline_matrix": "inputs/historical/curated_crc_case_control_species_relative_abundance.tsv.gz",
+  "legacy_clr": "inputs/historical/legacy_clr.tsv",
+  "legacy_abundance": "inputs/historical/legacy_abundance.tsv",
+  "legacy_interpretation": "inputs/historical/legacy_interpretation.tsv",
+  "legacy_membership": "inputs/historical/legacy_membership.tsv",
+  "old_clr_sets": "inputs/historical/old_clr_sets.tsv",
+  "output_root": "results/core_replay"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=study_accession%3D%22PRJEB27928%22&fields=study_accession%2Csecondary_study_accession%2Crun_accession%2Csample_accession%2Csecondary_sample_accession%2Csample_alias%2Csample_title%2Cexperiment_alias%2Clibrary_name&format=tsv&limit=0",
+  "retrieved_utc": "2026-10-10T08:11:44.935163+00:00",
+  "bytes": 62080,
+  "sha256": "5740a1bfe4c77dee3c049bb05e053a04759f10597221471d542f347c91cf3bb3",
+  "timeout_seconds": 30,
+  "attempt": 1
+}

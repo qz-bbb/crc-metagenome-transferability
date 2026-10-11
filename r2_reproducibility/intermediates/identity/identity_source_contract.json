@@ -1,0 +1,34 @@
+{
+  "original_metadata": {
+    "sha256": "944d2d0a4b22a075d896f53ad494402fc1ad8f4a6395ec36c8f483e7124e0fee",
+    "bytes": 357260,
+    "source_url": "https://raw.githubusercontent.com/bioc/curatedMetagenomicData/cecdfeca42d0f6cda6bad3f5c755c5c4ba4da858/data/sampleMetadata.rda",
+    "source_sha256": "168c8650d2893dcb49930b9b85a4187637775c9aae0a8023efb4cca52dc73444",
+    "version": "cecdfeca42d0f6cda6bad3f5c755c5c4ba4da858",
+    "reconstruction": "source_access.py reconstruct-cmd; 1395 CRC/control rows in eleven historical inventory-study order"
+  },
+  "projects": {
+    "PRJNA447983": {
+      "bytes": 19542,
+      "sha256": "843c5ae888f3d550d3c36230118d17fc0d88d0b1f094f18c8e4f807dece0db0f",
+      "provenance_sha256": "a878494c429eaeeef00ad21a8809f419c3df9dd3e9ff495a01f8fa9d5547d590",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=study_accession%3D%22PRJNA447983%22&fields=study_accession%2Csecondary_study_accession%2Crun_accession%2Csample_accession%2Csecondary_sample_accession%2Csample_alias%2Csample_title%2Cexperiment_alias%2Clibrary_name&format=tsv&limit=0"
+    },
+    "PRJEB27928": {
+      "bytes": 62080,
+      "sha256": "5740a1bfe4c77dee3c049bb05e053a04759f10597221471d542f347c91cf3bb3",
+      "provenance_sha256": "1939538ecdf4cd5d23b2a2020e6f4eb733931ce5388dd1439c3fef4a29ff66c5",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=study_accession%3D%22PRJEB27928%22&fields=study_accession%2Csecondary_study_accession%2Crun_accession%2Csample_accession%2Csecondary_sample_accession%2Csample_alias%2Csample_title%2Cexperiment_alias%2Clibrary_name&format=tsv&limit=0"
+    }
+  },
+  "training_manifest_sha256": "5e2135d3128375e2c5d17e16649f14a160d10180f31cef56afc1bc04ff05fa71",
+  "identity_core_sha256": "247f59b959bc4a491254bee4e411f8137604c4ae1add4fc2c46317d0c3f2c692",
+  "generator_origin": {
+    "script": "cohort_source_audit.py link project enrichment block",
+    "sha256": "de6c1de2b17bdd465a0c61a65d40264cc65e67c70591397379b925dd2164774c",
+    "date": "2026-10-10",
+    "normalization": "uppercase ASCII alphanumeric exact tokens; primary-project-scoped join; ambiguous multi-UID source rows refused",
+    "identity_core_origin_sha256": "b684ca4e4ab3b39e7849f6abf720362c15b643f756884323e29583b55e5090fb",
+    "identity_core_snapshot": "candidate portable code/identity_core.py; unchanged functions with LF serialization"
+  }
+}
