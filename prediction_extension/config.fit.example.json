@@ -1,0 +1,6 @@
+{
+  "source_root": "../inputs/mp4_source",
+  "training_manifest": "../inputs/core_replay/mp4_initial/01_inputs/training_manifest.tsv",
+  "state": "../results/select_full/state.joblib",
+  "output_root": "../results/full_models/ARP__elastic_net"
+}

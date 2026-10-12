@@ -1,0 +1,11 @@
+{
+  "evaluation_dirs": [
+    "../results/external_evaluation/LiuNN_2022",
+    "../results/external_evaluation/YangY_2021",
+    "../results/external_evaluation/IIGM_TU",
+    "../results/external_evaluation/YangJ_2020",
+    "../results/external_evaluation/NHSII",
+    "../results/external_evaluation/IIGM_CZ"
+  ],
+  "output_root": "../results/external_summary"
+}

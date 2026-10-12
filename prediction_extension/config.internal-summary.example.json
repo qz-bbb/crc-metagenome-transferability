@@ -1,0 +1,25 @@
+{
+  "study_names": [
+    "FengQ_2015",
+    "GuptaA_2019",
+    "ThomasAM_2018a",
+    "ThomasAM_2018b",
+    "VogtmannE_2016",
+    "WirbelJ_2018",
+    "YachidaS_2019",
+    "YuJ_2015",
+    "ZellerG_2014"
+  ],
+  "evaluation_dirs": [
+    "../results/internal_evaluation/fold0",
+    "../results/internal_evaluation/fold1",
+    "../results/internal_evaluation/fold2",
+    "../results/internal_evaluation/fold3",
+    "../results/internal_evaluation/fold4",
+    "../results/internal_evaluation/fold5",
+    "../results/internal_evaluation/fold6",
+    "../results/internal_evaluation/fold7",
+    "../results/internal_evaluation/fold8"
+  ],
+  "output_root": "../results/internal_summary"
+}

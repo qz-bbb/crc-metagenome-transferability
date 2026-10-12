@@ -1,0 +1,575 @@
+scope	contrast	family	classifier	panel	metric	estimate	ci95_low	ci95_high	ci975_low	ci975_high	protocol_focal	inference_status
+LiuNN_2022	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	0.024132730015082871	-0.03740573152337856	0.087786576168929112			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.045945576412839584	-0.017363310039674028	0.10642988522173535			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	0.032126696832579071	-0.030026395173454106	0.095780542986425313			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	0.049629788654627638	-0.013346406632845411	0.10945981971170406			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	0.025791855203619929	-0.034698340874811454	0.088393665158371118			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	0.04659276498945597	-0.016285912405109466	0.10649077043615852			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	-0.0079939668174962009	-0.017801659125188579	0.00075791855203628409			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	-0.0036842122417880541	-0.012175983026647744	0.0046976062607124967			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	-0.032126696832579071	-0.09578054298642534	0.030026395173454044			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	-0.049629788654627638	-0.10945981971170406	0.013346406632845297			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	-0.0063348416289591425	-0.017194570135746545	0.0034690799396681626			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	-0.0030370236651716676	-0.011829248689916947	0.005736956500933788			False	post_outcome_sensitivity
+LiuNN_2022	DCP_interaction	DCP	elastic_net		AUROC	-0.017797888386123728	-0.079947209653091836	0.043740573152337814			False	post_outcome_sensitivity
+LiuNN_2022	DCP_interaction	DCP	elastic_net		AP	-0.042908552747667916	-0.10575177509965566	0.019633023761533825			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.052337858220211197	-0.022929864253393693	0.12895927601809953			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	0.044780834858837992	-0.034867132479246998	0.12488613365127511			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.052790346907994001	-0.021610105580693845	0.12550150829562609			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	0.044208575863626254	-0.033996738546845651	0.12498977709506694			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.053996983408748145	-0.020667420814479566	0.12911764705882336			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	0.045578901615272671	-0.034329889796611487	0.12533303515609817			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	-0.00045248868778280382	-0.014483408748114686	0.015082956259426798			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	0.00057225899521173851	-0.010658001361778543	0.012157379982654386			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.052790346907994001	-0.12550150829562615	0.021610105580693623			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_median_minus_ARP	DCP	random_forest		AP	-0.044208575863626254	-0.12498977709506694	0.033996738546845547			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	0.0012066365007541435	-0.010558069381598756	0.013729260935143222			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_minus_ARP	DCP	random_forest		AP	0.0013703257516464173	-0.0093610588364075095	0.012720136523702			False	post_outcome_sensitivity
+LiuNN_2022	DCP_interaction	DCP	random_forest		AUROC	-0.053544494720965341	-0.13204374057315241	0.022948717948717744			False	post_outcome_sensitivity
+LiuNN_2022	DCP_interaction	DCP	random_forest		AP	-0.04615116061048441	-0.12943888524908101	0.034017469241336341			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	-0.0067873303167421684	-0.073921568627450945	0.057337858220210952	-0.082053167420814518	0.066819381598793248	True	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.018368101019255456	-0.045552925822452711	0.081881036051608763			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	-0.0067873303167421684	-0.073921568627450945	0.057337858220210952			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.018368101019255456	-0.045552925822452711	0.081881036051608763			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	-0.00060331825037707176	-0.065320512820512808	0.062763951734539858	-0.076321644042232226	0.074219457013574658	True	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.022218326890359852	-0.042581253060687899	0.084278845372639882			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	-0.028506787330316752	-0.062156862745098039	0.001361236802413353			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	-0.023039779556582651	-0.049837250602082536	0.00081271229558935903			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	-0.021719457013574583	-0.091123680241327304	0.041934389140271547			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	-0.041407880575838107	-0.1092859894981741	0.02295053400156211			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	-0.028506787330316752	-0.062156862745098039	0.001361236802413353			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	-0.023039779556582651	-0.049837250602082536	0.00081271229558935903			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	-0.022322775263951655	-0.055505279034690824	0.0079939668174962009			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	-0.019189553685478256	-0.045613093572120345	0.0049813298356235951			False	post_outcome_sensitivity
+LiuNN_2022	ICP_interaction	ICP	elastic_net		AUROC	0.00060331825037707176	-0.062763951734539969	0.065320512820512752			False	post_outcome_sensitivity
+LiuNN_2022	ICP_interaction	ICP	elastic_net		AP	-0.022218326890359852	-0.084278845372639938	0.042581253060687878			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.070739064856711886	-0.0098190045248870584	0.15414781297134228			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	0.046945605447521466	-0.057784469239949628	0.14434893495451237			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.070739064856711886	-0.0098190045248870584	0.15414781297134228			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	0.046945605447521466	-0.057784469239949628	0.14434893495451237			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.068778280542986514	-0.011628959276018166	0.14873303167420809			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	0.057607940273852298	-0.032939467089856428	0.14290821834261713			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	-0.0067873303167420573	-0.041787330316742151	0.026395173453997001			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	-0.022563354079555786	-0.079025129860585033	0.029601001713874295			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.077526395173453944	-0.15671568627450991	0.0021116138763197538			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_median_minus_ARP	ICP	random_forest		AP	-0.069508959527077252	-0.14992755169271041	0.014606894486135894			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	-0.0067873303167420573	-0.041787330316742151	0.026395173453997001			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	-0.022563354079555786	-0.079025129860585033	0.029601001713874295			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	-0.0087481146304674295	-0.043589743589743546	0.025207390648567037			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_minus_ARP	ICP	random_forest		AP	-0.011901019253224954	-0.050326182652379772	0.02485120280588855			False	post_outcome_sensitivity
+LiuNN_2022	ICP_interaction	ICP	random_forest		AUROC	-0.068778280542986514	-0.14873303167420818	0.011628959276018085			False	post_outcome_sensitivity
+LiuNN_2022	ICP_interaction	ICP	random_forest		AP	-0.057607940273852298	-0.14290821834261724	0.03293946708985631			False	post_outcome_sensitivity
+LiuNN_2022	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	-0.036500754147812953	-0.084321266968325717	0.012677224736048182			False	post_outcome_sensitivity
+LiuNN_2022	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	-0.041032898351331837	-0.082553823228621676	0.00091955927423344826			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	-0.028959276018099556	-0.074660633484162964	0.019762443438913938			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	-0.036776427114332044	-0.076008967101393557	0.0032438273754330539			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	-0.057164404223227883	-0.11328054298642527	0.00092006033182495217			False	post_outcome_sensitivity
+LiuNN_2022	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	-0.035611685560330453	-0.098817100204190503	0.032542316338802071			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	-0.036500754147812953	-0.084321266968325717	0.012677224736048182			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	-0.041032898351331837	-0.082553823228621676	0.00091955927423344826			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	-0.028959276018099667	-0.074362745098039168	0.017051282051282167			False	post_outcome_sensitivity
+LiuNN_2022	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	-0.036625548934513752	-0.074791825049059207	0.0035440252111164968			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	-0.014781297134238258	-0.058823529411764608	0.029566365007541354			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	-0.040556472874304972	-0.10426799416065884	0.020480230139126636			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	-0.092307692307692313	-0.14828431372549022	-0.034083710407239724			False	post_outcome_sensitivity
+LiuNN_2022	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	-0.069133977302570981	-0.13626399910055295	-4.1204407111124001e-05			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	-0.014781297134238258	-0.058823529411764608	0.029566365007541354			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	-0.040556472874304972	-0.10426799416065884	0.020480230139126636			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	-0.022926093514328727	-0.063503016591251987	0.02051282051282044			False	post_outcome_sensitivity
+LiuNN_2022	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	-0.033744363919078535	-0.077558253295453128	0.012124389392508074			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	0.047400000000000109	-0.017005000000000124	0.11280499999999999			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.053210483390281116	-0.017080235140286979	0.12177032199898541			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	0.0505000000000001	-0.010505000000000061	0.1136075000000001			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	0.053503980365550818	-0.015889825693095459	0.12140293585269395			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	0.046400000000000108	-0.016612500000000165	0.11140250000000004			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	0.045484820674461135	-0.022051963842919367	0.11855187862488985			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	-0.0030999999999999917	-0.014099999999999896	0.0071025000000000896			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	-0.00029349697526970253	-0.0099105043283506979	0.0088721952484989448			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	-0.0505000000000001	-0.11360750000000014	0.010505000000000033			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	-0.053503980365550818	-0.12140293585269407	0.015889825693095314			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	-0.0040999999999999925	-0.0172025000000001	0.0080000000000000071			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	-0.0080191596910896834	-0.0201334219118409	0.0071305685966750682			False	post_outcome_sensitivity
+YangY_2021	DCP_interaction	DCP	elastic_net		AUROC	-0.043300000000000116	-0.1090025000000001	0.022509999999999804			False	post_outcome_sensitivity
+YangY_2021	DCP_interaction	DCP	elastic_net		AP	-0.045191323699191432	-0.11959426459409743	0.023931128369159893			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.025000000000000133	-0.035802499999999834	0.081110000000000002			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	0.046181909575099267	-0.030234386838760313	0.10806925793153561			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.021100000000000119	-0.036902500000000039	0.077327499999999882			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	0.037585081266312881	-0.034380888516863897	0.09654889795135059			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.028800000000000048	-0.031805000000000049	0.085105000000000042			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	0.054020855668827528	-0.019735108565202684	0.11092943378533482			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	0.0039000000000000146	-0.010599999999999946	0.019099999999999791			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	0.0085968283087863862	-0.006429773071703085	0.025746624229000058			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.021100000000000119	-0.077327500000000035	0.036902500000000026			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_median_minus_ARP	DCP	random_forest		AP	-0.037585081266312881	-0.096548897951350673	0.034380888516863863			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	0.0076999999999999291	-0.0089025000000001239	0.02399999999999991			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_minus_ARP	DCP	random_forest		AP	0.016435774402514647	-0.00042740584909826951	0.032415938485848714			False	post_outcome_sensitivity
+YangY_2021	DCP_interaction	DCP	random_forest		AUROC	-0.032700000000000062	-0.090702500000000005	0.031104999999999879			False	post_outcome_sensitivity
+YangY_2021	DCP_interaction	DCP	random_forest		AP	-0.062617683977613914	-0.12415583259729064	0.014706074585322353			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	0.024299999999999988	-0.043307500000000006	0.091512500000000066	-0.055503750000000213	0.10440624999999996	True	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.031806440640722689	-0.036939348676477156	0.10009630110489852			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	0.024299999999999988	-0.043307500000000006	0.091512500000000066			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.031806440640722689	-0.036939348676477156	0.10009630110489852			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	0.014800000000000035	-0.052707500000000081	0.081807500000000061	-0.063402499999999903	0.093808750000000135	True	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.028511074683492899	-0.040142277685378876	0.093541597787892519			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	-0.044000000000000039	-0.078600000000000003	-0.010997500000000023			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	-0.035244457212085911	-0.072155724556379738	0.0078928569443976072			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	-0.068300000000000027	-0.13762499999999994	0.00010249999999997507			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	-0.0670508978528086	-0.13403192846908576	0.0065861952131674329			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	-0.044000000000000039	-0.078600000000000003	-0.010997500000000023			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	-0.035244457212085911	-0.072155724556379738	0.0078928569443976072			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	-0.053499999999999992	-0.092399999999999927	-0.017297499999999993			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	-0.038539823169315701	-0.076165340932812298	0.0041011834323398666			False	post_outcome_sensitivity
+YangY_2021	ICP_interaction	ICP	elastic_net		AUROC	-0.014800000000000035	-0.081807500000000102	0.052707500000000039			False	post_outcome_sensitivity
+YangY_2021	ICP_interaction	ICP	elastic_net		AP	-0.028511074683492899	-0.093541597787892561	0.040142277685378827			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.036700000000000066	-0.028112500000000016	0.09912249999999985			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	0.058780066743164494	-0.024799121674104287	0.13436564550674648			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.036700000000000066	-0.028112500000000016	0.09912249999999985			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	0.058780066743164494	-0.024799121674104287	0.13436564550674648			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.026000000000000023	-0.031907500000000144	0.08420249999999993			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	0.0610220495204985	-0.011934256772188487	0.12818595959415038			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	0	-0.036702500000000068	0.034112499999999955			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	0.014406824738362523	-0.020725278395013976	0.045482641533189351			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.036700000000000066	-0.099307499999999937	0.028802500000000029			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_median_minus_ARP	ICP	random_forest		AP	-0.044373242004801972	-0.12324905351784717	0.039671446549334723			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	0	-0.036702500000000068	0.034112499999999955			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	0.014406824738362523	-0.020725278395013976	0.045482641533189351			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	-0.010700000000000043	-0.046702499999999966	0.025209999999999944			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_minus_ARP	ICP	random_forest		AP	0.016648807515696529	-0.021778486226867202	0.051883725495901367			False	post_outcome_sensitivity
+YangY_2021	ICP_interaction	ICP	random_forest		AUROC	-0.026000000000000023	-0.084202499999999944	0.031907500000000102			False	post_outcome_sensitivity
+YangY_2021	ICP_interaction	ICP	random_forest		AP	-0.0610220495204985	-0.12818595959415047	0.01193425677218835			False	post_outcome_sensitivity
+YangY_2021	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	-0.0011999999999999789	-0.048499999999999988	0.045799999999999952			False	post_outcome_sensitivity
+YangY_2021	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	0.0017597111227887208	-0.040269575687265025	0.037555141463864974			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	0.0058000000000000274	-0.038599999999999975	0.052600000000000091			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	0.010650036406844809	-0.030312443218495945	0.048727311527019188			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	0.028200000000000003	-0.017610000000000056	0.07451249999999994			False	post_outcome_sensitivity
+YangY_2021	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	0.017678610222026658	-0.027901303984481419	0.068387582099067687			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	-0.0011999999999999789	-0.048499999999999988	0.045799999999999952			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	0.0017597111227887208	-0.040269575687265025	0.037555141463864974			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	0.010599999999999943	-0.032799999999999829	0.054302500000000004			False	post_outcome_sensitivity
+YangY_2021	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	0.026214645216393051	-0.017641960631637834	0.060484610040826677			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	0.04280000000000006	-0.0010999999999999927	0.089302500000000035			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	0.051410993073237155	0.0039858299704118114	0.090286745600920745			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	0.030399999999999983	-0.014802500000000255	0.076709999999999931			False	post_outcome_sensitivity
+YangY_2021	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	0.024437366970795349	-0.030318240091949479	0.071459125461637407			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	0.04280000000000006	-0.0010999999999999927	0.089302500000000035			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	0.051410993073237155	0.0039858299704118114	0.090286745600920745			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	0.04159999999999997	0.0046949999999999301	0.084402500000000116			False	post_outcome_sensitivity
+YangY_2021	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	0.056948341807800951	0.0093785602628618132	0.094457154528633624			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	0.24074074074074081	0.049857549857549754	0.43732193732193736			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.28044025888903823	0.081825505479993746	0.48418925509978172			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	0.24501424501424507	0.056944444444444395	0.4373575498575496			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	0.28667420198167215	0.092187310257635519	0.48934439895344922			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	0.24216524216524216	0.049857549857549865	0.44159544159544151			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	0.28236426081304011	0.081763277026403708	0.48657985058423703			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	-0.0042735042735042583	-0.028490028490028352	0.017094017094017144			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	-0.0062339430926339201	-0.023131914867432289	0.0052177704752275128			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	-0.24501424501424507	-0.43735754985754977	-0.056944444444444589			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	-0.28667420198167215	-0.48934439895344933	-0.092187310257635574			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	-0.0028490028490029129	-0.027065527065527117	0.019943019943019946			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	-0.0043099411686320366	-0.021335745015200351	0.010030769405707126			False	post_outcome_sensitivity
+IIGM_TU	DCP_interaction	DCP	elastic_net		AUROC	-0.2378917378917379	-0.43878205128205122	-0.032727920227920378			False	post_outcome_sensitivity
+IIGM_TU	DCP_interaction	DCP	elastic_net		AP	-0.27613031772040619	-0.48253365122351838	-0.071179272150687534			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.29344729344729359	0.1282051282051283	0.46014957264957246			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	0.34441467475283905	0.15179012496534075	0.50821027854378553			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.27207977207977219	0.11392450142450132	0.4358974358974359			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	0.33411036660985272	0.14657452690366446	0.49504205091898812			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.27492877492877499	0.11396011396011396	0.44590455840455812			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	0.33006711923982457	0.13244435478549713	0.50210178187701315			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	0.021367521367521403	-0.0042735042735041499	0.059829059829059839			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	0.010304308142986329	-0.022164113731224684	0.043948527266592936			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.27207977207977219	-0.4358974358974359	-0.11392450142450151			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_median_minus_ARP	DCP	random_forest		AP	-0.33411036660985272	-0.49504205091898834	-0.14657452690366449			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	0.0028490028490028019	-0.014245014245014124	0.02564102564102555			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_minus_ARP	DCP	random_forest		AP	-0.0040432473700281468	-0.032989308399519961	0.024187740688635148			False	post_outcome_sensitivity
+IIGM_TU	DCP_interaction	DCP	random_forest		AUROC	-0.29629629629629639	-0.47435897435897434	-0.13105413105413122			False	post_outcome_sensitivity
+IIGM_TU	DCP_interaction	DCP	random_forest		AP	-0.3403714273828109	-0.51723459072530498	-0.14214451396285041			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	0.24501424501424496	0.041310541310541349	0.45868945868945865	0.0056445868945869133	0.49291310541310551	True	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.28918682883700686	0.079615983167597187	0.49764559066312231			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	0.24501424501424496	0.041310541310541349	0.45868945868945865			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.28918682883700686	0.079615983167597187	0.49764559066312231			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	0.24358974358974361	0.05124643874643868	0.44305555555555554	0.029896723646723543	0.47863247863247871	True	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.26946308487545811	0.063275762394121304	0.47907457086090216			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	0.011396011396011319	-0.03276353276353261	0.056980056980057037			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	0.022488060880917926	-0.019170460184263199	0.076095355857362434			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	-0.23361823361823364	-0.43732193732193736	-0.038461538461538325			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	-0.26669876795608893	-0.46777882744115562	-0.076731368915807091			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	0.011396011396011319	-0.03276353276353261	0.056980056980057037			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	0.022488060880917926	-0.019170460184263199	0.076095355857362434			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	0.0099715099715099731	-0.042770655270655447	0.072649572649572614			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	0.0027643169193691808	-0.060321694913417254	0.068132103759283566			False	post_outcome_sensitivity
+IIGM_TU	ICP_interaction	ICP	elastic_net		AUROC	-0.24358974358974361	-0.4430555555555557	-0.051246438746438874			False	post_outcome_sensitivity
+IIGM_TU	ICP_interaction	ICP	elastic_net		AP	-0.26946308487545811	-0.47907457086090233	-0.063275762394121374			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.30056980056980054	0.12532051282051285	0.48860398860398851			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	0.33101356011113892	0.13421505793974342	0.51442204520895174			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.30056980056980054	0.12532051282051285	0.48860398860398851			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	0.33101356011113892	0.13421505793974342	0.51442204520895174			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.30341880341880334	0.13671652421652419	0.4843304843304842			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	0.3408595945524886	0.1669669707378425	0.5088860850507505			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	0.022792022792022748	-0.029914529914529812	0.079772079772079674			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	0.020516040854719031	-0.044719103788801354	0.090606536859826156			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.27777777777777779	-0.45584045584045574	-0.11253561253561273			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_median_minus_ARP	ICP	random_forest		AP	-0.31049751925641988	-0.48277979126957909	-0.12824391328325763			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	0.022792022792022748	-0.029914529914529812	0.079772079772079674			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	0.020516040854719031	-0.044719103788801354	0.090606536859826156			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	0.02564102564102555	-0.014245014245014342	0.074074074074073959			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_minus_ARP	ICP	random_forest		AP	0.030362075296068713	-0.010418608948118743	0.080300340492558853			False	post_outcome_sensitivity
+IIGM_TU	ICP_interaction	ICP	random_forest		AUROC	-0.30341880341880334	-0.4843304843304842	-0.13671652421652439			False	post_outcome_sensitivity
+IIGM_TU	ICP_interaction	ICP	random_forest		AP	-0.3408595945524886	-0.50888608505075061	-0.16696697073784258			False	post_outcome_sensitivity
+IIGM_TU	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	-0.0042735042735042583	-0.068411680911680997	0.059829059829059728			False	post_outcome_sensitivity
+IIGM_TU	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	-0.020953434149255212	-0.10278446856519136	0.05195010901310694			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	0.021367521367521403	-0.037037037037036979	0.098290598290598274			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	-0.004415182913634963	-0.079944052191072881	0.071272079061552668			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	-0.031339031339031376	-0.13960113960113962	0.06695156695156701			False	post_outcome_sensitivity
+IIGM_TU	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	-0.068389598777435778	-0.18417795928755101	0.061948064254457591			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	-0.0042735042735042583	-0.068411680911680997	0.059829059829059728			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	-0.020953434149255212	-0.10278446856519136	0.05195010901310694			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	0.0014245014245014564	-0.059829059829059839	0.07407407407407407			False	post_outcome_sensitivity
+IIGM_TU	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	-0.020686740350651323	-0.094522733351327465	0.052888473184406641			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	0.0071225071225071712	-0.068376068376068244	0.11114672364672361			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	-0.022925454175454107	-0.10285394657712217	0.066018825517330557			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	-0.048433048433048409	-0.15537749287749292	0.061253561253561295			False	post_outcome_sensitivity
+IIGM_TU	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	-0.064752185449586164	-0.19275809069362695	0.068381836326152343			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	0.0071225071225071712	-0.068376068376068244	0.11114672364672361			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	-0.022925454175454107	-0.10285394657712217	0.066018825517330557			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	0.011396011396011319	-0.059829059829059728	0.098290598290598274			False	post_outcome_sensitivity
+IIGM_TU	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	0.0066443242274443204	-0.079746258097431813	0.097250679344096966			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	0.073147153598281278	0.0082679914070891477	0.14232277121374864			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.064310111643640866	0.004312012795795051	0.12464080308251184			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	0.075080558539205144	0.010526315789473824	0.14457841031149293			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	0.064550054891293507	0.0044695835229151106	0.12586583982954641			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	0.081525241675617477	0.018259935553168734	0.14930451127819527			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	0.07302529869518215	0.014332518194729358	0.13311472103849628			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	-0.0019334049409238663	-0.0070891514500538433	0.0025805585392051984			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	-0.00023994324765264086	-0.0049253006705661908	0.0044973547770896325			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	-0.075080558539205144	-0.14457841031149296	-0.010526315789473824			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	-0.064550054891293507	-0.12586583982954644	-0.0044695835229151141			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	0.0064446831364123325	-0.0010741138560688146	0.01460794844253499			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	0.0084752438038886435	0.00099247106830637486	0.017678281516811566			False	post_outcome_sensitivity
+YangJ_2020	DCP_interaction	DCP	elastic_net		AUROC	-0.079591836734693611	-0.1459962406015039	-0.015888829215897089			False	post_outcome_sensitivity
+YangJ_2020	DCP_interaction	DCP	elastic_net		AP	-0.072785355447529509	-0.13225420589980599	-0.013716986695427041			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.084210526315789513	0.020727712137486615	0.14898227712137474			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	0.1065092793421939	0.039035228021545375	0.17331382566928147			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.090977443609022601	0.029312567132115844	0.15500537056928024			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	0.1124235115045249	0.042749795310614958	0.1809479580856434			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.083136412459720921	0.019011815252416797	0.14887486573576797			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	0.10626679432509267	0.037411495269062844	0.17416289499470725			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	-0.0067669172932330879	-0.016756176154672398	0.0022556390977444022			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	-0.0059142321623310012	-0.016136983497384662	0.0029388718246254998			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.090977443609022601	-0.15500537056928029	-0.029312567132115903			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_median_minus_ARP	DCP	random_forest		AP	-0.1124235115045249	-0.1809479580856434	-0.042749795310614999			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	-0.0078410311493016804	-0.019229323308270728	0.002577873254564933			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_minus_ARP	DCP	random_forest		AP	-0.0061567171794322251	-0.016526297901293029	0.0039349887940988608			False	post_outcome_sensitivity
+YangJ_2020	DCP_interaction	DCP	random_forest		AUROC	-0.076369495166487833	-0.14318206229860372	-0.011275510204081622			False	post_outcome_sensitivity
+YangJ_2020	DCP_interaction	DCP	random_forest		AP	-0.10035256216276167	-0.16702532861213404	-0.030787924295085124			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	0.056390977443608881	-0.013533834586466068	0.12569548872180417	-0.022773899033297709	0.13438238453276044	True	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.062284703393005736	0.0038778994880193985	0.12249853464025311			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	0.056390977443608881	-0.013533834586466068	0.12569548872180417			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.062284703393005736	0.0038778994880193985	0.12249853464025311			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	0.038560687432868002	-0.029218582169710041	0.10666756176154665	-0.039104457572502506	0.11686761546723964	True	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.049759605683661223	-0.0083207398623609593	0.10958012210571338			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	-0.007733619763695132	-0.03544575725026855	0.019121911922663725			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	-0.00095464501355280174	-0.025329381026755457	0.024501636083231193			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	-0.064124597207304013	-0.13351503759398484	0.0013963480128893508			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	-0.063239348406558538	-0.12683853536704121	-0.00078913361337451993			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	-0.007733619763695132	-0.03544575725026855	0.019121911922663725			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	-0.00095464501355280174	-0.025329381026755457	0.024501636083231193			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	-0.025563909774436011	-0.055322234156820638	0.00022287862513423231			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	-0.013479742722897314	-0.037769066096407317	0.010065584666995473			False	post_outcome_sensitivity
+YangJ_2020	ICP_interaction	ICP	elastic_net		AUROC	-0.038560687432868002	-0.10666756176154669	0.029218582169710027			False	post_outcome_sensitivity
+YangJ_2020	ICP_interaction	ICP	elastic_net		AP	-0.049759605683661223	-0.10958012210571341	0.0083207398623609229			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.059183673469387688	-0.005802900107411327	0.12524704618689567			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	0.052659940222182344	-0.010912266632618121	0.1205527025204485			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.059183673469387688	-0.005802900107411327	0.12524704618689567			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	0.052659940222182344	-0.010912266632618121	0.1205527025204485			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.058109559613319095	-0.001828678839957154	0.12030343716433929			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	0.05188716475536026	-0.0098670004362254368	0.11326002478167273			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	-0.033297529538131143	-0.066707841031149392	-0.0013936627282491933			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	-0.042431084649766748	-0.078961238782172788	-0.008267085663127496			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.092481203007518831	-0.16015843179377001	-0.032008592910848566			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_median_minus_ARP	ICP	random_forest		AP	-0.095091024871949092	-0.15985951611489302	-0.036541860114882016			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	-0.033297529538131143	-0.066707841031149392	-0.0013936627282491933			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	-0.042431084649766748	-0.078961238782172788	-0.008267085663127496			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	-0.034371643394199736	-0.066715896885069695	-0.0037567132116004716			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_minus_ARP	ICP	random_forest		AP	-0.043203860116588833	-0.077624369423808529	-0.011985830225855853			False	post_outcome_sensitivity
+YangJ_2020	ICP_interaction	ICP	random_forest		AUROC	-0.058109559613319095	-0.12030343716433931	0.0018286788399571395			False	post_outcome_sensitivity
+YangJ_2020	ICP_interaction	ICP	random_forest		AP	-0.05188716475536026	-0.11326002478167281	0.0098670004362254263			False	post_outcome_sensitivity
+YangJ_2020	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	0.011385606874328547	-0.02084049409237395	0.043724489795918441			False	post_outcome_sensitivity
+YangJ_2020	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	0.014622377111139118	-0.011589492064299633	0.043118090223459117			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	0.006552094522019325	-0.025464554242749644	0.038023630504833483			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	0.0089480881964607573	-0.016277565523918871	0.035697422396715833			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	-0.0045112781954889103	-0.051774973147153597	0.046941460794844243			False	post_outcome_sensitivity
+YangJ_2020	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	-0.033251079502092273	-0.080327600472328134	0.012631300268889813			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	0.011385606874328547	-0.02084049409237395	0.043724489795918441			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	0.014622377111139118	-0.011589492064299633	0.043118090223459117			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	-0.0029001074113854663	-0.030719656283566099	0.023310955961331987			False	post_outcome_sensitivity
+YangJ_2020	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	-9.5838721817509409e-06	-0.02412859278613011	0.023987446398061239			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	-0.014178302900107465	-0.049844253490869905	0.021697099892588396			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	-0.026854062525074829	-0.065211461418620234	0.010755361188707334			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	-0.016970998925886271	-0.064664339419978581	0.03157894736842104			False	post_outcome_sensitivity
+YangJ_2020	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	-0.017229299354251437	-0.068044998234510989	0.030484528287111082			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	-0.014178302900107465	-0.049844253490869905	0.021697099892588396			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	-0.026854062525074829	-0.065211461418620234	0.010755361188707334			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	0.002577873254564822	-0.032545649838882862	0.036627282491944135			False	post_outcome_sensitivity
+YangJ_2020	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	-0.015101740282552401	-0.049854900616868661	0.017845411110146196			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	-0.040338010204081676	-0.14732142857142849	0.080365114795918471			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.0071185710128601754	-0.12862713683717542	0.14204290427481939			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	-0.045758928571428492	-0.17045998086734682	0.093112244897959107			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	-0.01190663392716354	-0.13755033515054804	0.079285919723698223			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	-0.038265306122448939	-0.14557955994897953	0.082270408163265252			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	-0.0044555318777788552	-0.13098901943059094	0.11290939228758377			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	0.0054209183673468164	-0.046719547193877692	0.055974968112244873			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	0.019025204940023716	-0.0033507677142200661	0.098138332529447772			False	post_outcome_sensitivity
+NHSII	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	0.045758928571428492	-0.093112244897959107	0.17045998086734671			False	post_outcome_sensitivity
+NHSII	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	0.01190663392716354	-0.079285919723698237	0.13755033515054782			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	0.0074936224489795533	-0.042099808673469255	0.055648118622448908			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	0.007451102049384685	-0.0036318715613652508	0.054066849135726874			False	post_outcome_sensitivity
+NHSII	DCP_interaction	DCP	elastic_net		AUROC	0.032844387755102122	-0.090086894132652903	0.14526865433673453			False	post_outcome_sensitivity
+NHSII	DCP_interaction	DCP	elastic_net		AP	-0.014569673062244867	-0.18325486899879651	0.11703034943672733			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.055165816326530615	-0.088329081632652962	0.2194276147959181			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	-0.013276084288156013	-0.19472486661732749	0.099498894387159822			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.035873724489795977	-0.097576530612244805	0.17030851403061206			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	-0.0097320244137821255	-0.19385010341161615	0.13639475499853762			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.046875	-0.079436383928571469	0.18654735331632649			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	-0.013742442204484208	-0.19430127998903651	0.10126206560571459			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	0.019292091836734637	-0.056289859693877578	0.1090601084183674			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	-0.003544059874373888	-0.06648746037032835	0.021464188132039614			False	post_outcome_sensitivity
+NHSII	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.035873724489795977	-0.17030851403061223	0.097576530612244805			False	post_outcome_sensitivity
+NHSII	DCP_raw_median_minus_ARP	DCP	random_forest		AP	0.0097320244137821255	-0.13639475499853768	0.19385010341161615			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	0.011001275510204023	-0.032051179846938817	0.063934948979591733			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_minus_ARP	DCP	random_forest		AP	-0.0040104177907020824	-0.052055050922092512	0.0084963565795855966			False	post_outcome_sensitivity
+NHSII	DCP_interaction	DCP	random_forest		AUROC	-0.066167091836734637	-0.25829878826530622	0.088492506377550975			False	post_outcome_sensitivity
+NHSII	DCP_interaction	DCP	random_forest		AP	0.017286502078858096	-0.079807518906096636	0.19540509516856885			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	0.045918367346938882	-0.047245695153061262	0.13840481505102051	-0.059313217474489852	0.15465959821428577	True	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.0089206960137059588	-0.10566475016192101	0.097999555479888256			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	0.045918367346938882	-0.047245695153061262	0.13840481505102051			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.0089206960137059588	-0.10566475016192101	0.097999555479888256			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	0.041772959183673519	-0.059319196428571488	0.14160953443877525	-0.073826132015306162	0.16023596938775503	True	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.0095930864324791504	-0.10894309244085462	0.10149464487376653			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	0.10315688775510201	-0.0028858418367347059	0.21333705357142854			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	0.033177031644085517	-0.029713586612803412	0.11447015501211946			False	post_outcome_sensitivity
+NHSII	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	0.057238520408163129	-0.07462930484693879	0.17809311224489799			False	post_outcome_sensitivity
+NHSII	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	0.024256335630379558	-0.042634576889405668	0.14718995173115734			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	0.10315688775510201	-0.0028858418367347059	0.21333705357142854			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	0.033177031644085517	-0.029713586612803412	0.11447015501211946			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	0.099011479591836649	-0.023441485969387863	0.22115353954081615			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	0.033849422062858708	-0.034296389719458642	0.11948173768794823			False	post_outcome_sensitivity
+NHSII	ICP_interaction	ICP	elastic_net		AUROC	-0.041772959183673519	-0.14160953443877541	0.05931919642857144			False	post_outcome_sensitivity
+NHSII	ICP_interaction	ICP	elastic_net		AP	-0.0095930864324791504	-0.10149464487376654	0.10894309244085434			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.11798469387755106	-0.032374043367347019	0.28986367984693873			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	-0.02531676410478003	-0.21043341303049137	0.044905486321873189			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.11798469387755106	-0.032374043367347019	0.28986367984693873			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	-0.02531676410478003	-0.21043341303049137	0.044905486321873189			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.10124362244897966	-0.027594866071428626	0.25016342474489806			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	-0.03002854902303384	-0.21096092777576142	0.02808708999898089			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	0.084821428571428492	-0.022169961734693943	0.20552455357142854			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	-0.010346172503583155	-0.15196991540372148	0.035065927568522351			False	post_outcome_sensitivity
+NHSII	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.033163265306122569	-0.22912946428571426	0.16030771683673428			False	post_outcome_sensitivity
+NHSII	ICP_raw_median_minus_ARP	ICP	random_forest		AP	0.014970591601196875	-0.13836833879685129	0.19882968820404009			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	0.084821428571428492	-0.022169961734693943	0.20552455357142854			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	-0.010346172503583155	-0.15196991540372148	0.035065927568522351			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	0.068080357142857095	-0.051032366071428518	0.20089684311224482			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_minus_ARP	ICP	random_forest		AP	-0.015057957421836965	-0.16052530406221957	0.029901342805752198			False	post_outcome_sensitivity
+NHSII	ICP_interaction	ICP	random_forest		AUROC	-0.10124362244897966	-0.25016342474489811	0.027594866071428564			False	post_outcome_sensitivity
+NHSII	ICP_interaction	ICP	random_forest		AP	0.03002854902303384	-0.028087089998980894	0.21096092777576142			False	post_outcome_sensitivity
+NHSII	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	0.050860969387755084	-0.084207589285714243	0.18941725127551029			False	post_outcome_sensitivity
+NHSII	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	0.014710910441622455	-0.024406374867980515	0.087551403858599858			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	0.064732142857142905	-0.032214604591836629	0.16232461734693865			False	post_outcome_sensitivity
+NHSII	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	-0.007858354372775149	-0.089562327107375536	0.034081974989410832			False	post_outcome_sensitivity
+NHSII	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	-0.030771683673469385	-0.16151945153061223	0.088978794642857059			False	post_outcome_sensitivity
+NHSII	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	0.01253630092824104	-0.024581337486756713	0.090267193487467964			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	0.050860969387755084	-0.084207589285714243	0.18941725127551029			False	post_outcome_sensitivity
+NHSII	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	0.014710910441622455	-0.024406374867980515	0.087551403858599858			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	0.054368622448979553	-0.065533322704081715	0.17476084183673468			False	post_outcome_sensitivity
+NHSII	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	0.0032493906015356872	-0.044025211255046735	0.03371658370397921			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	0.032525510204081565	-0.077810108418367316	0.14832987882653043			False	post_outcome_sensitivity
+NHSII	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	-0.028812293706046217	-0.14227835132193181	0.017727893276522997			False	post_outcome_sensitivity
+NHSII	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	-0.039540816326530615	-0.18001434948979594	0.089608577806122372			False	post_outcome_sensitivity
+NHSII	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	0.0054251664124397719	-0.090540467422385348	0.1047835332235911			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	0.032525510204081565	-0.077810108418367316	0.14832987882653043			False	post_outcome_sensitivity
+NHSII	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	-0.028812293706046217	-0.14227835132193181	0.017727893276522997			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	0.019929846938775531	-0.078603316326530726	0.1270926339285714			False	post_outcome_sensitivity
+NHSII	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	-0.034196469043073219	-0.14657255847809955	0.0021643329791834597			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	0.083271923360353717	-0.024696020633751013	0.19714443625644815			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.089123952980830978	0.004913854994804962	0.16805504099016838			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	0.077008106116433384	-0.032820560058953618	0.18939756816506992			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	0.08653122043843231	-0.00056127736260055245	0.16927296762981861			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	0.085482682387619802	-0.021775976418570358	0.19896831245394231			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	0.08993671210226073	0.0066068293912716824	0.16790285686350276			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	0.0062638172439203332	-0.014369933677229167	0.030950626381724303			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	0.002592732542398668	-0.012028453291742991	0.019217134744556465			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	-0.077008106116433384	-0.18939756816506995	0.032820560058953473			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	-0.08653122043843231	-0.16927296762981878	0.00056127736260040294			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	0.0084745762711864181	-0.013633014001473764	0.033529845246868084			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	0.0034054916638284194	-0.012603711270991278	0.021116535734986095			False	post_outcome_sensitivity
+IIGM_CZ	DCP_interaction	DCP	elastic_net		AUROC	-0.091746499631540135	-0.20854826823876194	0.019915254237288099			False	post_outcome_sensitivity
+IIGM_CZ	DCP_interaction	DCP	elastic_net		AP	-0.092529444644659398	-0.17177481938204273	-0.0097861995224667441			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.10574797347089171	-0.0084837877671333599	0.2214535740604274			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	0.12901388885314358	0.035723098019657583	0.20153464011371816			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.11680176860722202	0.0047623434045688268	0.22991893883566672			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	0.12978724646189188	0.036136278664391931	0.20372370843064744			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.11311717022844514	0.0040438467207074202	0.22476050110537948			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	0.13024713531126508	0.036614100828550052	0.20175002601987263			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	-0.011053795136330313	-0.038688282977155326	0.015843773028739964			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	-0.00077335760874830406	-0.016149172820423129	0.014074977971510534			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.11680176860722202	-0.22991893883566672	-0.004762343404568976			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_median_minus_ARP	DCP	random_forest		AP	-0.12978724646189188	-0.20372370843064744	-0.036136278664391938			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	-0.0036845983787768821	-0.022476050110537885	0.015475313190862261			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_minus_ARP	DCP	random_forest		AP	0.00045988884937320229	-0.012619244487605166	0.012386821753818559			False	post_outcome_sensitivity
+IIGM_CZ	DCP_interaction	DCP	random_forest		AUROC	-0.10206337509211483	-0.21849668386145926	0.014747605011053641			False	post_outcome_sensitivity
+IIGM_CZ	DCP_interaction	DCP	random_forest		AP	-0.12947377770251678	-0.2026792651168281	-0.033224413275056534			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	0.069638909358880063	-0.037628960943257253	0.17800294767870289	-0.057848194546794351	0.19308216654384677	True	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.079682678359314196	-0.0046206939872648284	0.15476430217979728			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	0.069638909358880063	-0.037628960943257253	0.17800294767870289			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.079682678359314196	-0.0046206939872648284	0.15476430217979728			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	0.012896094325718699	-0.10651252763448793	0.13522476050110532	-0.12159635224760491	0.15327929255711126	True	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.051023283168261435	-0.038849890903766802	0.13549556590205214			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	-0.0044215180545320587	-0.050110537951363332	0.045329771554900464			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	-0.014609818109445838	-0.050344010116459267	0.024971096753760205			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	-0.074060427413412122	-0.19197678703021351	0.042004421518054391			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	-0.094292496468760034	-0.18195530767036086	-0.0036622894408933756			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	-0.0044215180545320587	-0.050110537951363332	0.045329771554900464			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	-0.014609818109445838	-0.050344010116459267	0.024971096753760205			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	-0.061164333087693423	-0.1219694178334562	-0.0010685335298455318			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	-0.043269213300498599	-0.086139748411348749	0.00045356940153198596			False	post_outcome_sensitivity
+IIGM_CZ	ICP_interaction	ICP	elastic_net		AUROC	-0.012896094325718699	-0.13522476050110532	0.10651252763448778			False	post_outcome_sensitivity
+IIGM_CZ	ICP_interaction	ICP	elastic_net		AP	-0.051023283168261435	-0.13549556590205225	0.038849890903766747			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.064480471628592606	-0.048636698599852535	0.17873986735445796			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	0.062938334137889629	-0.028072034088544973	0.14604094881429594			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.064480471628592606	-0.048636698599852535	0.17873986735445796			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	0.062938334137889629	-0.028072034088544973	0.14604094881429594			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.057111274871039064	-0.058953574060427449	0.17243920412675018			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	0.057717923875708288	-0.039270658874024811	0.1456135768437643			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	-0.044583640383198286	-0.11053795136330147	0.021748341930729592			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	-0.049671705314392245	-0.09927538781780669	-0.0026694701463303972			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.10906411201179089	-0.2243920412675019	0.005176860722181236			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_median_minus_ARP	ICP	random_forest		AP	-0.11261003945228187	-0.19226463393911361	-0.028335429596875676			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	-0.044583640383198286	-0.11053795136330147	0.021748341930729592			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	-0.049671705314392245	-0.09927538781780669	-0.0026694701463303972			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	-0.051952837140751829	-0.1219694178334562	0.017326823876197321			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_minus_ARP	ICP	random_forest		AP	-0.054892115576573586	-0.10971689800144865	-0.00063901863130813477			False	post_outcome_sensitivity
+IIGM_CZ	ICP_interaction	ICP	random_forest		AUROC	-0.057111274871039064	-0.17243920412675018	0.058953574060427449			False	post_outcome_sensitivity
+IIGM_CZ	ICP_interaction	ICP	random_forest		AP	-0.057717923875708288	-0.14561357684376433	0.039270658874024721			False	post_outcome_sensitivity
+IIGM_CZ	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	-0.026529108327192241	-0.089904200442151749	0.037951363301400143			False	post_outcome_sensitivity
+IIGM_CZ	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	-0.0248384320828825	-0.076241958140520413	0.024653204043071784			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	-0.043846720707442888	-0.106484893146647	0.015852984524686847			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	-0.028204522234029472	-0.074249669729474554	0.018152262214199577			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	-0.066322770817980881	-0.14186624907885029	0.011422254974207794			False	post_outcome_sensitivity
+IIGM_CZ	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	-0.068094458106342071	-0.11290341141520734	-0.0058318676630785193			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	-0.026529108327192241	-0.089904200442151749	0.037951363301400143			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	-0.0248384320828825	-0.076241958140520413	0.024653204043071784			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	-0.038688282977155541	-0.095062638172439207	0.017317612380250539			False	post_outcome_sensitivity
+IIGM_CZ	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	-0.027784034897337717	-0.070747541100794051	0.014416850810557984			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	-0.066691230655858469	-0.12122328666175386	-0.012518422991893888			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	-0.059900319287828907	-0.1066217019769088	-0.0126457562647804			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	-0.061532792925571012	-0.13194546794399412	0.0084837877671334154			False	post_outcome_sensitivity
+IIGM_CZ	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	-0.04315597506640434	-0.091166482077850136	0.0068835700951041905			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	-0.066691230655858469	-0.12122328666175386	-0.012518422991893888			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	-0.059900319287828907	-0.1066217019769088	-0.0126457562647804			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	-0.017317612380250647	-0.073323507737656612	0.039802873986735418			False	post_outcome_sensitivity
+IIGM_CZ	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	-0.036461334358957487	-0.082969485956778943	0.0094326990421838095			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AUROC	0.10409115691860782	0.035264898190045357	0.17488326043237806			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_raw_median	DCP	elastic_net		AP	0.12653210623071975	0.05332315764316458	0.19699646444742072			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AUROC	0.10921364728227456	0.041067005055583285	0.17827733087537007			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_raw_median	DCP	elastic_net		AP	0.1299359903339502	0.055941402114124988	0.1985341920603208			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_raw_median	DCP	elastic_net		AUROC	0.10478569912295399	0.035319486620859028	0.17379823166303537			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_raw_median	DCP	elastic_net		AP	0.12481394882565244	0.051421329516054999	0.19599654062355129			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_ARP	DCP	elastic_net		AUROC	-0.0051224903636667429	-0.014306600469247383	0.0035770349421819264			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_ARP	DCP	elastic_net		AP	-0.0034038841032304479	-0.010080914789594716	0.0024348184205701231			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_median_minus_ARP	DCP	elastic_net		AUROC	-0.10921364728227456	-0.17827733087537012	-0.041067005055583396			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_median_minus_ARP	DCP	elastic_net		AP	-0.1299359903339502	-0.19853419206032089	-0.055941402114125002			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_ARP	DCP	elastic_net		AUROC	0	0	0			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_ARP	DCP	elastic_net		AP	0	0	0			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_ARP	DCP	elastic_net		AUROC	-0.0044279481593205716	-0.014104033852857412	0.0049156949332441642			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_ARP	DCP	elastic_net		AP	-0.0051220415082977588	-0.012111506927361456	0.003021991994357735			False	post_outcome_sensitivity
+PRIMARY3	DCP_interaction	DCP	elastic_net		AUROC	-0.099663208759287247	-0.17166329506731481	-0.027054119462599713			False	post_outcome_sensitivity
+PRIMARY3	DCP_interaction	DCP	elastic_net		AP	-0.121410064722422	-0.19456312902032444	-0.04665079902944895			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_raw_median	DCP	random_forest		AUROC	0.12359505055583497	0.062010898972124556	0.18801394349477682			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_raw_median	DCP	random_forest		AP	0.14512580639559192	0.070251756827960074	0.20752896791510059			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_raw_median	DCP	random_forest		AUROC	0.1153233729959221	0.054011386235406036	0.1762426582313836			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_raw_median	DCP	random_forest		AP	0.13863467457993051	0.063904545669303855	0.19901311594337451			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_raw_median	DCP	random_forest		AUROC	0.11924191944584095	0.056850034774593716	0.18221872758505114			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_raw_median	DCP	random_forest		AP	0.14322229217464155	0.064700293789279981	0.20529666891451331			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_ARP	DCP	random_forest		AUROC	0.0082716775599128711	-0.0029181213340036872	0.022383477878331053			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_minus_ARP	DCP	random_forest		AP	0.0064911318156614106	-0.0057166800955063242	0.019793407577074824			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_median_minus_ARP	DCP	random_forest		AUROC	-0.1153233729959221	-0.17624265823138369	-0.054011386235406161			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_median_minus_ARP	DCP	random_forest		AP	-0.13863467457993051	-0.19901311594337459	-0.063904545669303939			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_ARP	DCP	random_forest		AUROC	0	0	0			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_minus_ARP	DCP	random_forest		AP	0	0	0			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_ARP	DCP	random_forest		AUROC	0.0039185464499188472	-0.0044577590637396381	0.013656770711133533			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_minus_ARP	DCP	random_forest		AP	0.0045876175947110465	-0.0067607498398409268	0.015354218219918133			False	post_outcome_sensitivity
+PRIMARY3	DCP_interaction	DCP	random_forest		AUROC	-0.12751359700575382	-0.19493667364951672	-0.06408877674431615			False	post_outcome_sensitivity
+PRIMARY3	DCP_interaction	DCP	random_forest		AP	-0.14971342399030296	-0.21380967843452423	-0.070605904128020147			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AUROC	0.08750897156583437	0.012849837858220275	0.16507001606055527	-2.164397240382981e-05	0.17177060352773574	True	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_raw_median	ICP	elastic_net		AP	0.1131204568323283	0.037504239901359225	0.18623563953507605			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AUROC	0.08750897156583437	0.012849837858220275	0.16507001606055527			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_raw_median	ICP	elastic_net		AP	0.1131204568323283	0.037504239901359225	0.18623563953507605			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_raw_median	ICP	elastic_net		AUROC	0.085928808446455562	0.016163964303670255	0.16136815568962626	0.0043520909446399855	0.16997682929724611	True	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_raw_median	ICP	elastic_net		AP	0.10673082881643692	0.032019490933297451	0.18007492888052867			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_ARP	ICP	elastic_net		AUROC	-0.020370258644768269	-0.040958412937824686	0.00095439835763358157			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_ARP	ICP	elastic_net		AP	-0.011932058629250175	-0.032654840847272965	0.011287686363792081			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_median_minus_ARP	ICP	elastic_net		AUROC	-0.10787923021060264	-0.18173167518574393	-0.037551168649796227			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_median_minus_ARP	ICP	elastic_net		AP	-0.12505251546157847	-0.19512688979496184	-0.049683042050967047			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_ARP	ICP	elastic_net		AUROC	-0.020370258644768269	-0.040958412937824686	0.00095439835763358157			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_ARP	ICP	elastic_net		AP	-0.011932058629250175	-0.032654840847272965	0.011287686363792081			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_ARP	ICP	elastic_net		AUROC	-0.021950421764147077	-0.045630378051505494	0.0043111460253617284			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_ARP	ICP	elastic_net		AP	-0.018321686645141555	-0.042869261074894902	0.0089717641816523547			False	post_outcome_sensitivity
+PRIMARY3	ICP_interaction	ICP	elastic_net		AUROC	-0.085928808446455562	-0.16136815568962629	-0.016163964303670307			False	post_outcome_sensitivity
+PRIMARY3	ICP_interaction	ICP	elastic_net		AP	-0.10673082881643692	-0.18007492888052876	-0.032019490933297458			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_raw_median	ICP	random_forest		AUROC	0.13600295514217076	0.065139512736718516	0.20792617088430809			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_raw_median	ICP	random_forest		AP	0.14557974410060837	0.067183348538598836	0.2193434224486297			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_raw_median	ICP	random_forest		AUROC	0.13600295514217076	0.065139512736718516	0.20792617088430809			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_raw_median	ICP	random_forest		AP	0.14557974410060837	0.067183348538598836	0.2193434224486297			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_raw_median	ICP	random_forest		AUROC	0.13273236132059651	0.066420162281436865	0.19783079772079773			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_raw_median	ICP	random_forest		AP	0.15316319478228002	0.083856550360300763	0.21803107742080388			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_ARP	ICP	random_forest		AUROC	0.0053348974917601932	-0.017628994190268612	0.030984776548796219			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_minus_ARP	ICP	random_forest		AP	0.0041198371711752557	-0.025086288471063863	0.03595972473208045			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_median_minus_ARP	ICP	random_forest		AUROC	-0.13066805765041056	-0.19474931637897328	-0.064852326546002995			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_median_minus_ARP	ICP	random_forest		AP	-0.14145990692943311	-0.20692620058220507	-0.070423377595973419			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_ARP	ICP	random_forest		AUROC	0.0053348974917601932	-0.017628994190268612	0.030984776548796219			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_minus_ARP	ICP	random_forest		AP	0.0041198371711752557	-0.025086288471063863	0.03595972473208045			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_ARP	ICP	random_forest		AUROC	0.0020643036701859518	-0.019656519468186157	0.025162969945813268			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_minus_ARP	ICP	random_forest		AP	0.011703287852846911	-0.010473876648887988	0.035134612244255681			False	post_outcome_sensitivity
+PRIMARY3	ICP_interaction	ICP	random_forest		AUROC	-0.13273236132059651	-0.19783079772079773	-0.066420162281436948			False	post_outcome_sensitivity
+PRIMARY3	ICP_interaction	ICP	random_forest		AP	-0.15316319478228002	-0.21803107742080391	-0.083856550360300805			False	post_outcome_sensitivity
+PRIMARY3	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AUROC	-0.013991419473772249	-0.045432011898776818	0.017556481062510558			False	post_outcome_sensitivity
+PRIMARY3	ARP_RF_minus_EN	ARP	RF_minus_EN	ARP	AP	-0.020075540459266072	-0.05247642770166331	0.010496229368460504			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AUROC	-0.00059725155019263454	-0.030106043237807977	0.03317060806658842			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_mean	AP	-0.010180524540374214	-0.041582126208373309	0.021392241132920403			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AUROC	-0.020101145187419789	-0.061553600357521908	0.023397237444835493			False	post_outcome_sensitivity
+PRIMARY3	DCP_raw_median_RF_minus_EN	DCP	RF_minus_EN	DCP_raw_median	AP	-0.028774224705246376	-0.073370821368551678	0.024592026854563558			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AUROC	-0.013991419473772249	-0.045432011898776818	0.017556481062510558			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_mean_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_mean	AP	-0.020075540459266072	-0.05247642770166331	0.010496229368460504			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AUROC	-0.0056449248645328298	-0.035254512736718577	0.028056840818948665			False	post_outcome_sensitivity
+PRIMARY3	DCP_clr_median_RF_minus_EN	DCP	RF_minus_EN	DCP_clr_median	AP	-0.010365881356257267	-0.042120251359646137	0.019950744227103613			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AUROC	0.011713736662756213	-0.022785367437573388	0.050192925115915159			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_mean	AP	-0.0040236446588406416	-0.041194623445209827	0.033639886833379679			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AUROC	-0.036780246913580172	-0.082054810625104793	0.0090376134014858115			False	post_outcome_sensitivity
+PRIMARY3	ICP_raw_median_RF_minus_EN	ICP	RF_minus_EN	ICP_raw_median	AP	-0.03648293192712071	-0.087104747656022441	0.013506528358471586			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AUROC	0.011713736662756213	-0.022785367437573388	0.050192925115915159			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_mean_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_mean	AP	-0.0040236446588406416	-0.041194623445209827	0.033639886833379679			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AUROC	0.01002330596056078	-0.020505735852745736	0.04640331056924208			False	post_outcome_sensitivity
+PRIMARY3	ICP_clr_median_RF_minus_EN	ICP	RF_minus_EN	ICP_clr_median	AP	0.0099494340387223934	-0.027604897942202344	0.044879003068314577			False	post_outcome_sensitivity

@@ -1,0 +1,5 @@
+{
+  "predictions": "../results/internal_summary/all_predictions.tsv",
+  "metadata": "../results/internal_summary/all_metadata.tsv",
+  "output_root": "../results/point_replay"
+}

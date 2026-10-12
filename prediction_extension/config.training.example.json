@@ -1,0 +1,5 @@
+{
+  "source_root": "../inputs/mp4_source",
+  "training_manifest": "../inputs/core_replay/mp4_initial/01_inputs/training_manifest.tsv",
+  "output_root": "../results/select_full"
+}

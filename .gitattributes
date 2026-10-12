@@ -6,3 +6,7 @@
 /.gitattributes -text
 /RELEASE_NOTES_v2.0.0.md -text
 /README.md -text
+/prediction_extension/** -text
+/report_extension/** -text
+/PREDICTION_PUBLICATION_MANIFEST.tsv -text
+/RELEASE_NOTES_v2.1.0.md -text

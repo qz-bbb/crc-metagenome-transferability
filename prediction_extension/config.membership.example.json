@@ -1,0 +1,6 @@
+{
+  "state_dirs": [
+    "../results/select_full"
+  ],
+  "output_root": "../results/full_membership"
+}

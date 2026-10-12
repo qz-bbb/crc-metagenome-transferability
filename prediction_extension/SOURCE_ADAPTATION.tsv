@@ -1,0 +1,13 @@
+portable_file	original_script	adaptation
+core.py	A definition_prediction_core.py	Package import adaptation only;all numerical functions unchanged
+selection.py	A select_fold.py	Imports redirected to .core;training/selection algorithms unchanged
+models.py	A run_fold.py	Imports redirected to .core/.selection;fixed parameters and numerical fitting unchanged
+evaluation.py	B evaluate_predictions.py	Numerical module unchanged
+external.py	C external_pipeline.py	Remove c_common local-run initializer;redirect package imports;all numerical functions unchanged
+external_evaluation.py	C external_evaluation.py	Replace dynamic absolute B-path import with .evaluation;preserve evaluators/summaries and endpoint tolerance
+membership.py	B summarize_membership.py	Extract unchanged overlap/direction_category helpers;exclude original local main
+workflow.py	A batch_a.py;B run_nested_comparison.py/evaluate_batch.py/summarize_membership.py;C run_external.py/audit_directions.py	Fresh config/CLI/receipt adapters;single-model fitting;explicit complete-grid assembly;preserve existing numerical calls/summary rules
+source.py	A audit_inputs.py profile/load_training	Explicit source_root;reuse shipped MP4 recovery SHA contract;round-trip TSV;same selection ordering/zero-fill policy
+boundary.py	A audit_inputs.py;existing R2 portable boundary patterns	Config-relative paths;bidirectional overlap rejection;fresh destinations;exact TSV;immutable-input receipts;complete-grid point replay
+run_prediction.py;__main__.py	New launch boundaries	No import-time data actions;absolute launcher independent of cwd
+tests/	Applicable A/B/C unit tests plus new adapter tests	Remove local project import paths;synthetic fixtures only

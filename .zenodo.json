@@ -1,11 +1,22 @@
 {
-  "title": "CRC metagenome transferability: R2 reproducibility code and dated ENA metadata snapshots",
-  "description": "R2 reproducibility release for Transferability-aware prioritization of colorectal cancer gut metagenome signals across public cohorts. Includes ordered portable workflows, environment and input contracts, historical intermediate generators, tests, bounded replay reports, and the unchanged public ENA project-report snapshots for PRJNA447983 and PRJEB27928 retained on 2026-10-10 with original provenance. Legacy baseline directories are preserved and distinguished from r2_reproducibility. Project software is MIT licensed; third-party ENA metadata retains ENA/INSDC policy, source attribution and EMBL-EBI terms and is not relicensed as project-owned MIT data. Other third-party source matrices/tables are not newly redistributed. This release does not claim complete from-zero model replay, clinical validation or independent human scientific review.",
-  "creators": [{"name": "Qiu, Zhun", "affiliation": "Northeast Forestry University"}],
-  "version": "v2.0.0",
+  "title": "CRC metagenome transferability: R2 code with four-definition prediction extension",
+  "description": "R2 reproducibility workflows, plus a portable four-definition prediction extension for training-only selection, fixed Elastic Net/Random Forest fitting, locked external prediction, tie-aware AUROC/AP summaries, membership and direction audits, Figure 8 and supplementary TSV generation. The extension is post-outcome sensitivity, not untouched confirmatory validation. No full model refitting or fresh-network environment replay was performed for this packaging release. Unchanged third-party ENA metadata snapshots for PRJNA447983 and PRJEB27928 retain their source attribution and retrieval sidecars; the MIT license applies to software, not third-party data. No raw reads, abundance matrices, per-participant prediction tables, model binaries or credentials are included in the new extension.",
+  "creators": [
+    {
+      "name": "Qiu, Zhun",
+      "affiliation": "Northeast Forestry University"
+    }
+  ],
+  "version": "v2.1.0",
   "upload_type": "software",
   "access_right": "open",
   "license": "mit",
-  "keywords": ["colorectal cancer", "metagenomics", "transferability", "reproducibility", "ENA metadata"],
+  "keywords": [
+    "colorectal cancer",
+    "metagenomics",
+    "transferability",
+    "reproducibility",
+    "ENA metadata"
+  ],
   "language": "eng"
 }

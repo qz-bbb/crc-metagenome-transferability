@@ -1,0 +1,14 @@
+{
+  "source_root": "../inputs/mp4_source",
+  "model_bundle": "../results/full_lock/bundle.joblib",
+  "blind_dirs": [
+    "../results/blind/LiuNN_2022",
+    "../results/blind/YangY_2021",
+    "../results/blind/IIGM_TU",
+    "../results/blind/YangJ_2020",
+    "../results/blind/NHSII",
+    "../results/blind/IIGM_CZ"
+  ],
+  "historical_directions": "../inputs/core_replay/mp4_multicohort/02_analysis/results/LiuNN_2022/species_replication_all800.tsv",
+  "output_root": "../results/directions/LiuNN_2022"
+}

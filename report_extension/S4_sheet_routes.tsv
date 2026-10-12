@@ -1,0 +1,18 @@
+sheet	generator	source_file_pattern
+Prediction_B_macro	summary-internal	summary/macro_metrics.tsv
+Prediction_B_studies	summary-internal	summary/study_metrics.tsv
+Prediction_B_contrasts	summary-internal	summary/paired_contrasts.tsv
+Prediction_B_folds	membership (nine fold states)	<nine-fold-membership-output>/fold_summary.tsv
+Prediction_B_overlap	membership	membership_audit/panel_overlap.tsv
+Prediction_B_eligibility	membership	membership_audit/panel_counts.tsv
+Prediction_B_eligible_changes	membership	membership_audit/changed_eligible_taxa.tsv
+Prediction_B_rawmedian_loss	membership	membership_audit/raw_median_exclusion_breakdown.tsv
+Prediction_B_membership	select (full training or each fold)	folds/FengQ_2015/panel_membership.tsv
+Prediction_B_probabilities	assemble (internal)	folds/FengQ_2015/predictions.tsv
+Prediction_C_macro	summary-external	summary/primary3_macro_metrics.tsv
+Prediction_C_cohorts	summary-external	summary/all6_cohort_metrics.tsv
+Prediction_C_contrasts	summary-external	summary/paired_contrasts_all_scopes.tsv
+Prediction_C_membership	select (full training or each fold)	model_lock/panel_membership.tsv
+Prediction_C_overlap	membership (full training)	direction_context/training_membership_overlap.tsv
+Prediction_C_direction	directions --cohort NAME	<directions-output>/direction_summary.tsv
+Prediction_C_probabilities	external-evaluate (each cohort)	<external-evaluation-output>/predictions.tsv

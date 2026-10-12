@@ -1,0 +1,9 @@
+{
+  "python": "3.12.10",
+  "packages": {
+    "matplotlib": "3.10.9",
+    "Pillow": "12.2.0",
+    "PyMuPDF": "1.27.2.3"
+  },
+  "scope": "exact renderer replay environment; not evidence of a new clean-network installation"
+}

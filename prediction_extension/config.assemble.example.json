@@ -1,0 +1,26 @@
+{
+  "source_root": "../inputs/mp4_source",
+  "training_manifest": "../inputs/core_replay/mp4_initial/01_inputs/training_manifest.tsv",
+  "state": "../results/select_full/state.joblib",
+  "model_dirs": [
+    "../results/full_models/ARP__elastic_net",
+    "../results/full_models/ARP__random_forest",
+    "../results/full_models/DCP_raw_mean__elastic_net",
+    "../results/full_models/DCP_raw_mean__random_forest",
+    "../results/full_models/DCP_raw_median__elastic_net",
+    "../results/full_models/DCP_raw_median__random_forest",
+    "../results/full_models/DCP_clr_mean__elastic_net",
+    "../results/full_models/DCP_clr_mean__random_forest",
+    "../results/full_models/DCP_clr_median__elastic_net",
+    "../results/full_models/DCP_clr_median__random_forest",
+    "../results/full_models/ICP_raw_mean__elastic_net",
+    "../results/full_models/ICP_raw_mean__random_forest",
+    "../results/full_models/ICP_raw_median__elastic_net",
+    "../results/full_models/ICP_raw_median__random_forest",
+    "../results/full_models/ICP_clr_mean__elastic_net",
+    "../results/full_models/ICP_clr_mean__random_forest",
+    "../results/full_models/ICP_clr_median__elastic_net",
+    "../results/full_models/ICP_clr_median__random_forest"
+  ],
+  "output_root": "../results/full_lock"
+}

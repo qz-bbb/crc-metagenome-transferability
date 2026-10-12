@@ -1,0 +1,6 @@
+{
+  "source_root": "../inputs/mp4_source",
+  "model_bundle": "../results/full_lock/bundle.joblib",
+  "blind_dirs": [],
+  "output_root": "../results/blind/LiuNN_2022"
+}

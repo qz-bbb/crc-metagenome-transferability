@@ -1,3 +1,32 @@
+# CRC metagenome transferability
+
+## v2.1.0 Four-definition prediction extension
+
+The latest addition is a portable, separately scoped sensitivity analysis:
+
+- [Ordered prediction workflow](prediction_extension/README.md): source recovery,
+  train-only selection, one model per invocation, sealed predictions, all-cohort
+  evaluation, membership and direction audits.
+- [Figure 8 and supplementary-table route](report_extension/README.md): render
+  the five published aggregate reference tables immediately, or use rebuilt
+  outputs from the prediction workflow. Individual prediction tables and
+  abundance matrices are not bundled with this extension.
+- [Release scope and verification](RELEASE_NOTES_v2.1.0.md).
+- `PREDICTION_PUBLICATION_MANIFEST.tsv` identifies all added extension payloads.
+
+Quick figure replay (Python with the recorded plotting dependencies):
+
+```text
+python -B report_extension/render_figure8.py --internal-summary report_extension/reference_outputs/internal --external-summary report_extension/reference_outputs/external --output ../figure8_replay
+```
+
+This is a **post-outcome sensitivity extension** using already examined external
+cohorts. It does not establish ICP superiority, equivalence or clinical utility.
+The archival update does not change the historical 1,395-sample/301-feature
+analysis. Legacy payloads and v2.0.0 workflows below remain unchanged.
+
+## Historical v2.0.0 release documentation
+
 # CRC metagenome transferability: R2 reproducibility release
 
 Software and reproducibility materials for **Transferability-aware prioritization of colorectal cancer gut metagenome signals across public cohorts**, by Zhun Qiu, Northeast Forestry University.

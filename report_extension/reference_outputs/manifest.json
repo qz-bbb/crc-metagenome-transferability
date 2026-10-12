@@ -1,0 +1,27 @@
+[
+  {
+    "path": "report_extension/reference_outputs/internal/macro_metrics.tsv",
+    "bytes": 5837,
+    "sha256": "93d3502020a1d5323c6b53f1dbe17b0f33ceef66dfc56060da3415a65b9e520d"
+  },
+  {
+    "path": "report_extension/reference_outputs/internal/paired_contrasts.tsv",
+    "bytes": 107515,
+    "sha256": "3c88249503fb50c1efc9fb43ed3df57cb454e8389a0156ea67e5e91719536d85"
+  },
+  {
+    "path": "report_extension/reference_outputs/external/primary3_macro_metrics.tsv",
+    "bytes": 6742,
+    "sha256": "4087b764864ffd442b53d6a396fcae9bda63bb1b82625fa3a51c61a0a566db68"
+  },
+  {
+    "path": "report_extension/reference_outputs/external/paired_contrasts_all_scopes.tsv",
+    "bytes": 89270,
+    "sha256": "09ccfb172cc130a8fd11fa496461c3449ee03699dd3155ab5d534e78aeb2719b"
+  },
+  {
+    "path": "report_extension/reference_outputs/external/all6_cohort_metrics.tsv",
+    "bytes": 25483,
+    "sha256": "bc44eb4f120c365560800c679f1e65a35e762e8efb80c1c5a38eaa9db206cb32"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "source_root": "../inputs/mp4_source",
+  "baseline_metadata": "../inputs/cmd/reconstructed/curated_crc_case_control_sample_metadata.tsv",
+  "output_root": "../inputs/core_replay"
+}
