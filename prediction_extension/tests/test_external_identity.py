@@ -69,6 +69,27 @@ class ExternalSummaryIdentityTests(unittest.TestCase):
             self.assertEqual(len(macro),36)
             self.assertTrue(macro["mean"].eq(1.).all())
 
+    def test_external_summary_adds_frozen_roles_without_changing_metrics(self):
+        from prediction_extension.boundary import read_tsv
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            identity = {"model_bundle_sha256":"a"*64,"blind_set_sha256":"b"*64}
+            dirs = [self.evaluation(root,cohort,identity) for cohort in COHORTS]
+            original = pd.concat([read_tsv(path/"metrics.tsv") for path in dirs],ignore_index=True)
+            original_bytes = {path:(path/"metrics.tsv").read_bytes() for path in dirs}
+            args = type("Args",(),{"action":"summary-external"})()
+            workflow.run(args,{"output_root":root/"result","evaluation_dirs":dirs})
+            combined = read_tsv(root/"result"/"all6_cohort_metrics.tsv")
+            self.assertIn("role",combined.columns,"rebuilt all-six table lacks frozen cohort roles")
+            expected = {"LiuNN_2022":"primary","YangY_2021":"primary","IIGM_TU":"primary",
+                        "YangJ_2020":"secondary","NHSII":"secondary","IIGM_CZ":"secondary"}
+            self.assertEqual(combined.groupby("study_name").role.first().to_dict(),expected)
+            self.assertTrue(combined.groupby("study_name").role.nunique().eq(1).all())
+            pd.testing.assert_frame_equal(combined.drop(columns="role"),original,check_exact=True)
+            pd.testing.assert_frame_equal(read_tsv(root/"result"/"study_metrics.tsv"),combined,check_exact=True)
+            for path,expected_bytes in original_bytes.items():
+                self.assertEqual((path/"metrics.tsv").read_bytes(),expected_bytes)
+
     def test_blind_identity_is_complete_canonical_and_model_bundle_optional(self):
         self.assertTrue(hasattr(workflow,"_blind_identity"),"blind set identity adapter is missing")
         with tempfile.TemporaryDirectory() as temp:

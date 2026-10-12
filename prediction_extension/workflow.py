@@ -521,6 +521,9 @@ def run(args, config):
         save_table(directory/"macro_metrics.tsv",metrics)
         save_table(directory/"paired_contrasts.tsv",contrasts)
         combined_metrics = pd.concat([results[name]["metrics"] for name in expected],ignore_index=True)
+        if action=="summary-external":
+            combined_metrics["role"] = combined_metrics.study_name.map(
+                {cohort:details[2] for cohort,details in COHORTS.items()})
         save_table(directory/"study_metrics.tsv",combined_metrics)
         if action=="summary-internal":
             save_table(directory/"primary_comparisons.tsv",contrasts.loc[
